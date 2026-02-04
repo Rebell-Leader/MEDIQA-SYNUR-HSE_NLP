@@ -1,0 +1,15 @@
+{
+  "experts": [
+    {
+      "name": "Qwen-235B-RAG",
+      "f1": 0.7935,
+      "path": "outputs/submission/dw_qwen_235b_5-shot-dynamic_test__RAG_REPAIRED_PARTIAL/pred.jsonl"
+    },
+    {
+      "name": "GPT-5-0shot",
+      "f1": 0.7719,
+      "path": "outputs/submission/gpt-5_0-shot_test_full_test_REPAIRED_PARTIAL/pred.jsonl"
+    }
+  ],
+  "adjudicator": "dw_qwen_235b"
+}
