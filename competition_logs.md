@@ -1,0 +1,14 @@
+gpt-5-nano 0-shot prec_label=0.71 prec 0.7126024590163934 rec 0.5112091142962146 f-1 0.5953349026321421
+gpt-5-nano 5-shot dynamic RAG prec_label=0.42 prec 0.4238851870835469 rec 0.6078647556045571 f-1 0.49947153857768384
+gpt-4o-0-shot repaired partial prec_label=0.81 prec 0.8131426016987037 rec 0.6685042263873576 f-1 0.7337636143606293
+gpt-5 0-shot initial broken prec_label=0.77 prec 0.7695398100803507 rec 0.7743476662991547 f-1 0.7719362520608171
+gpt-5-mini-0-shot-test INITIAL_BROKEN prec_label=0.67 prec 0.668426103646833 rec 0.511944138184491 f-1 0.5798126951092611
+gpt-5 0-shot repaired partial prec_label=0.77 prec 0.7695398100803507 rec 0.7743476662991547 f-1 0.7719362520608171
+gpt-5 5-shot dynamic RAG initial broken prec_label=0.77 prec 0.7657004830917874 rec 0.6990077177508269 f-1 0.7308357348703169
+dw_qwen_235b_0-shot_test_REPAIRED_PARTIAL prec_label=0.75 prec 0.7512820512820513 rec 0.7537669974274164 f-1 0.7525224729407447
+dw_qwen_235b_5-shot-fixed_test_REPAIRED_PARTIAL prec_label= metrics FAILED
+gpt-5_0-shot_test_ensemble_v1_ENSEMBLE_INITIAL_BROKEN prec_label=0.58 prec 0.5797487628473544 rec 0.559720690922455 f-1 0.5695587135377712
+dw_qwen_235b_5-shot-dynamic_test__RAG_REPAIRED_PARTIAL prec_label=0.79 prec 0.789665211062591 rec 0.7975009187798603 f-1 0.7935637228012434
+dw_qwen_235b_0-shot_test_ensemble_v1_ENSEMBLE_REPAIRED_PARTIAL prec_label=0.73 prec 0.7319957004657829 rec 0.7508269018743109 f-1 0.7412917271407837
+dw_qwen_30b_5-shot-dynamic_test__RAG_ proc_label=NOT YET SUBMITTED TO COMPETITION, potential last submission if no better options are
+dw_qwen_235b_0-shot_test_ACE_v1_ENSEMBLE_REPAIRED_PARTIAL prec_label=0.78 prec 0.7812061711079944 rec 0.8188166115398751 f-1 0.7995693522339854
