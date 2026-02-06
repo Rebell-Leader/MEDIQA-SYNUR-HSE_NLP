@@ -1,4 +1,4 @@
-# MEDIQA-SYNUR 2026 - Structured Clinical Observation Extraction, HSE NLP team
+# MEDIQA-SYNUR 2026 - Structured Clinical Observation Extraction, HSE NLP team (avaliev)
 
 This repository contains the HSE NLP teams pipeline and models for the **MEDIQA-SYNUR 2026** competition. The goal is to extract structured clinical observations from nurse dictations based on a strict medical ontology.
 
@@ -8,8 +8,8 @@ Our best-performing models achieved high fidelity through a combination of **Dyn
 
 | Model | Approach | Precision | F1 | Recall |
 | :--- | :--- | :--- | :--- | :--- |
-| **Qwen-235B** | **Dynamic RAG (5-shot)** | **0.7936** | 0.7897 | 0.7975 |
-| Qwen-235B** | ACE Ensemble (v2) | 0.7996 | 0.7812 | 0.8188 |
+| Qwen-235B | Dynamic RAG (5-shot) | 0.7936 | 0.7897 | 0.7975 |
+| **Qwen-235B** | **ACE Ensemble (v2)** | **0.7996** | 0.7812 | 0.8188 |
 | GPT-5 | 0-shot | 0.7719 | 0.7695 | 0.7743 |
 | Qwen-235B | 0-shot | 0.7525 | 0.7513 | 0.7538 |
 | GPT-4o | 0-shot | 0.7338 | 0.8131 | 0.6685 |
@@ -23,7 +23,7 @@ Our best-performing models achieved high fidelity through a combination of **Dyn
 The successful strategy. It takes the union of extractions from our top two models (**Qwen-235B RAG** and **GPT-5 0-shot**) and uses a "Master Adjudicator" (Qwen-235B) to resolve conflicts and remove hallucinations by strictly verifying against the transcript.
 
 ### 2. Dynamic RAG (Few-Shot)
-The winning strategy. Uses a vector database (Qdrant) to retrieve the 5 most similar clinical scenarios from the training set. These are injected as few-shot examples into the prompt to provide the model with context-relevant extraction patterns.
+The well-performing strategy. Uses a vector database (Qdrant) to retrieve the 5 most similar clinical scenarios from the training set. These are injected as few-shot examples into the prompt to provide the model with context-relevant extraction patterns.
 
 ### 3. Targeted Repair Loop
 A custom validation and repair system. If a model output fails ontology validation, the system generates a "Repair Prompt" containing only the erroneous IDs and the specific validation error, significantly reducing context window usage and improving repair accuracy.
@@ -49,6 +49,7 @@ A custom validation and repair system. If a model output fails ontology validati
 ├── ensemble_config.json    # Expert configuration for ACE mode
 ├── requirements.txt        # Python dependencies
 └── .env                    # Environment variables (API Keys)
+... (Here are also datasets, official eval script + config, batch checkers, etc - sorry for the mess, the main part is still ./src + run_experiment.py + check_experiments.py)
 ```
 
 ---
