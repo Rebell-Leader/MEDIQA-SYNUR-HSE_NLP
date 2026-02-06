@@ -1,0 +1,1688 @@
+[
+    {
+        "id": "0",
+        "name": "Broset violence checklist - confusion",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "1",
+        "name": "Heart sounds",
+        "value_type": "STRING"
+    },
+    {
+        "id": "2",
+        "name": "Sensory perception",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "No impairment",
+            "Slightly limited",
+            "Intact"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Respiratory interventions",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "raising head of bed",
+            "turn cough",
+            "deep breathe",
+            "incentive spirometer usage"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Response latency",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Delayed",
+            "Normal"
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Stoma appearance",
+        "value_type": "STRING"
+    },
+    {
+        "id": "6",
+        "name": "Weightbearing status",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "weightbearing as tolerated to the right lower extremity",
+            "weightbearing as tolerated to the left lower extremity",
+            "non-weightbearing",
+            "partial weightbearing",
+            "full weightbearing"
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Oral mucosa status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Moist",
+            "Dry"
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Body art",
+        "value_type": "STRING"
+    },
+    {
+        "id": "9",
+        "name": "Bedding change",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Oxygen saturation",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "11",
+        "name": "Blood pressure",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "12",
+        "name": "Prosthetic use",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Breathing pattern",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "nonlabored",
+            "shallow",
+            "labored"
+        ]
+    },
+    {
+        "id": "14",
+        "name": "Safety equipment",
+        "value_type": "STRING"
+    },
+    {
+        "id": "15",
+        "name": "Blood pressure location",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "left arm",
+            "right arm"
+        ]
+    },
+    {
+        "id": "16",
+        "name": "Braden scale assessment",
+        "value_type": "STRING"
+    },
+    {
+        "id": "17",
+        "name": "Cardiac rhythm",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Normal sinus rhythm",
+            "Atrial fibrillation"
+        ]
+    },
+    {
+        "id": "18",
+        "name": "Emesis volume",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "19",
+        "name": "Temperature",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "20",
+        "name": "Suprapubic tenderness",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "21",
+        "name": "Ambulatory aid",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "walker",
+            "gait belt",
+            "furniture",
+            "antiembolism stockings"
+        ]
+    },
+    {
+        "id": "22",
+        "name": "Emesis color",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "dark green",
+            "green"
+        ]
+    },
+    {
+        "id": "23",
+        "name": "Muscle contractures",
+        "value_type": "STRING"
+    },
+    {
+        "id": "24",
+        "name": "Temperature source",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "oral",
+            "tympanic"
+        ]
+    },
+    {
+        "id": "25",
+        "name": "Nutrition status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "adequate",
+            "inadequate",
+            "unknown"
+        ]
+    },
+    {
+        "id": "26",
+        "name": "Delirium symptoms",
+        "value_type": "STRING"
+    },
+    {
+        "id": "27",
+        "name": "Excoriated tissue",
+        "value_type": "STRING"
+    },
+    {
+        "id": "28",
+        "name": "Speech content",
+        "value_type": "STRING"
+    },
+    {
+        "id": "29",
+        "name": "Pain management",
+        "value_type": "STRING"
+    },
+    {
+        "id": "30",
+        "name": "Nausea",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "31",
+        "name": "Secondary diagnosis",
+        "value_type": "STRING"
+    },
+    {
+        "id": "32",
+        "name": "Constipation episode",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "33",
+        "name": "Heart rate",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "34",
+        "name": "Pulse oximetry",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "35",
+        "name": "Urinary within defined limits",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "36",
+        "name": "Gastrointestinal status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "within normal limits",
+            "distended"
+        ]
+    },
+    {
+        "id": "37",
+        "name": "Motor strength",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Normal",
+            "Weak",
+            "Strong",
+            "Generalized weakness",
+            "2 out of 5",
+            "5 out of 5"
+        ]
+    },
+    {
+        "id": "38",
+        "name": "Use of accessory muscles",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "39",
+        "name": "Communication sensory",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Inappropriate communication 1",
+            "Inappropriate communication is present but less severe",
+            "communication sensory 1"
+        ]
+    },
+    {
+        "id": "40",
+        "name": "Orientation",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "oriented x1",
+            "oriented x2",
+            "oriented x3",
+            "oriented x4",
+            "disoriented"
+        ]
+    },
+    {
+        "id": "41",
+        "name": "Speech clarity",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "clear",
+            "slurred",
+            "unable to speak"
+        ]
+    },
+    {
+        "id": "42",
+        "name": "Toileting needs",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "id": "43",
+        "name": "Broset violence checklist - boisterous",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "44",
+        "name": "Voiding function",
+        "value_type": "STRING"
+    },
+    {
+        "id": "45",
+        "name": "Pitting edema",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "1+",
+            "2+",
+            "3+",
+            "4+"
+        ]
+    },
+    {
+        "id": "46",
+        "name": "CMS movement",
+        "value_type": "STRING"
+    },
+    {
+        "id": "47",
+        "name": "Tube feeding type",
+        "value_type": "STRING"
+    },
+    {
+        "id": "48",
+        "name": "Clinician notification",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "49",
+        "name": "Peripheral pulses",
+        "value_type": "STRING"
+    },
+    {
+        "id": "50",
+        "name": "Pain goal",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "51",
+        "name": "Pain severity",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "0 out of 10",
+            "1 out of 10",
+            "2 out of 10",
+            "3 out of 10",
+            "4 out of 10",
+            "5 out of 10",
+            "6 out of 10",
+            "7 out of 10",
+            "8 out of 10",
+            "9 out of 10",
+            "10 out of 10"
+        ]
+    },
+    {
+        "id": "52",
+        "name": "Gas passage",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "53",
+        "name": "Medications",
+        "value_type": "STRING"
+    },
+    {
+        "id": "54",
+        "name": "Gown change",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "55",
+        "name": "Mean arterial pressure (MAP)",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "56",
+        "name": "Mental status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "15",
+            "forgets limitations",
+            "3"
+        ]
+    },
+    {
+        "id": "57",
+        "name": "Cough strength",
+        "value_type": "STRING"
+    },
+    {
+        "id": "58",
+        "name": "Capillary refill",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "less than 3 seconds",
+            "sluggish"
+        ]
+    },
+    {
+        "id": "59",
+        "name": "IV fluid type and rate",
+        "value_type": "STRING"
+    },
+    {
+        "id": "60",
+        "name": "Cranial nerve function",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Normal",
+            "Abnormal"
+        ]
+    },
+    {
+        "id": "61",
+        "name": "Perineal edema",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Present",
+            "Absent"
+        ]
+    },
+    {
+        "id": "62",
+        "name": "Broset violence checklist - physically threatening",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "63",
+        "name": "Chest expansion",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "equal",
+            "unequal"
+        ]
+    },
+    {
+        "id": "64",
+        "name": "Transfer technique",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Independent",
+            "Assisted",
+            "Dependent"
+        ]
+    },
+    {
+        "id": "65",
+        "name": "Fluid restriction",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "66",
+        "name": "Wound location",
+        "value_type": "STRING"
+    },
+    {
+        "id": "67",
+        "name": "Dyspnea",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "None",
+            "Mild",
+            "Moderate",
+            "Severe"
+        ]
+    },
+    {
+        "id": "68",
+        "name": "Feeding assistance",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "No assistance required",
+            "Partial assistance required",
+            "Full assistance required"
+        ]
+    },
+    {
+        "id": "69",
+        "name": "Patient belongings",
+        "value_type": "STRING"
+    },
+    {
+        "id": "70",
+        "name": "Food allergies",
+        "value_type": "STRING"
+    },
+    {
+        "id": "71",
+        "name": "Vomiting",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "72",
+        "name": "Respirations",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "73",
+        "name": "Urine output",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "74",
+        "name": "Blood pressure method",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "automatic",
+            "arterial line"
+        ]
+    },
+    {
+        "id": "75",
+        "name": "Pupil size",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "76",
+        "name": "Pupil response",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Equal and reactive bilaterally",
+            "Unequal",
+            "Non-reactive",
+            "Sluggish",
+            "Fixed"
+        ]
+    },
+    {
+        "id": "77",
+        "name": "Memory status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Intact",
+            "Impaired"
+        ]
+    },
+    {
+        "id": "78",
+        "name": "History of falls",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "79",
+        "name": "Feeding tube status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Present",
+            "Absent"
+        ]
+    },
+    {
+        "id": "80",
+        "name": "Volume status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "volume status 0",
+            "volume status 1",
+            "volume status 2",
+            "volume status 3",
+            "volume status 4"
+        ]
+    },
+    {
+        "id": "81",
+        "name": "Bed safety",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Ensured",
+            "Not Ensured"
+        ]
+    },
+    {
+        "id": "82",
+        "name": "Central line site condition",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Intact",
+            "Redness",
+            "Swelling",
+            "Discharge"
+        ]
+    },
+    {
+        "id": "83",
+        "name": "Facial droop",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "right facial droop",
+            "left facial droop",
+            "no facial droop"
+        ]
+    },
+    {
+        "id": "84",
+        "name": "Abdomen exam",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "distended",
+            "nondistended",
+            "tender",
+            "nontender",
+            "soft",
+            "round",
+            "rounded"
+        ]
+    },
+    {
+        "id": "85",
+        "name": "Wound drainage",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "None",
+            "Serous",
+            "Sanguineous",
+            "Purulent"
+        ]
+    },
+    {
+        "id": "86",
+        "name": "Assistance with personal hygiene",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Independent",
+            "Assisted",
+            "Dependent"
+        ]
+    },
+    {
+        "id": "87",
+        "name": "Positioning frequency",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Every 2 hours",
+            "Every 4 hours",
+            "Every 6 hours"
+        ]
+    },
+    {
+        "id": "88",
+        "name": "Urine color",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "yellow",
+            "straw",
+            "amber",
+            "dark orange",
+            "clear"
+        ]
+    },
+    {
+        "id": "89",
+        "name": "Mobility",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "No limitation",
+            "Slightly limited",
+            "Mildly impaired",
+            "Limited"
+        ]
+    },
+    {
+        "id": "90",
+        "name": "Glasgow coma score - best motor response",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "obeys commands",
+            "localizes pain",
+            "withdraws from pain",
+            "flexion to pain",
+            "extension to pain",
+            "no response"
+        ]
+    },
+    {
+        "id": "91",
+        "name": "PO intake",
+        "value_type": "STRING"
+    },
+    {
+        "id": "92",
+        "name": "Patient weight",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "93",
+        "name": "Oxygen delivery device",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "nasal cannula",
+            "nonrebreather mask",
+            "Venturi mask"
+        ]
+    },
+    {
+        "id": "94",
+        "name": "Nailbed color",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "cyanotic",
+            "normal",
+            "pale",
+            "red",
+            "blue",
+            "yellow"
+        ]
+    },
+    {
+        "id": "95",
+        "name": "Peripheral IV site condition",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Intact",
+            "Redness",
+            "Swelling",
+            "Pain"
+        ]
+    },
+    {
+        "id": "96",
+        "name": "Command following",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "97",
+        "name": "Foreign object removal",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "98",
+        "name": "Intravenous therapy",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "99",
+        "name": "Urine odor",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "foul",
+            "strong unpleasant"
+        ]
+    },
+    {
+        "id": "100",
+        "name": "Drain output",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "101",
+        "name": "Broset violence checklist - verbally threatening",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "102",
+        "name": "Joint swelling",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "103",
+        "name": "Stool consistency",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Normal",
+            "Loose",
+            "Hard"
+        ]
+    },
+    {
+        "id": "104",
+        "name": "Hiccups",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "105",
+        "name": "Catheter condition",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Intact",
+            "Leaking",
+            "Blocked"
+        ]
+    },
+    {
+        "id": "106",
+        "name": "Wound type",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Surgical",
+            "Traumatic",
+            "Pressure Ulcer"
+        ]
+    },
+    {
+        "id": "107",
+        "name": "Fall risk identification",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "High",
+            "Medium",
+            "Low"
+        ]
+    },
+    {
+        "id": "108",
+        "name": "BMAT level",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "level one",
+            "level two",
+            "level three",
+            "level four"
+        ]
+    },
+    {
+        "id": "109",
+        "name": "Assistance with toileting",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "none"
+        ]
+    },
+    {
+        "id": "110",
+        "name": "Glasgow coma score - best verbal response",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "oriented",
+            "confused",
+            "inappropriate words",
+            "incomprehensible sounds",
+            "none"
+        ]
+    },
+    {
+        "id": "111",
+        "name": "Fall risk total",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "112",
+        "name": "Skin turgor",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Tented",
+            "Normal"
+        ]
+    },
+    {
+        "id": "113",
+        "name": "Bed position",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "lowered",
+            "raised",
+            "flat",
+            "elevated",
+            "reclined"
+        ]
+    },
+    {
+        "id": "114",
+        "name": "Caloric intake",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "115",
+        "name": "Broset violence checklist - irritability",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "116",
+        "name": "Work of breathing",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Normal",
+            "Increased"
+        ]
+    },
+    {
+        "id": "117",
+        "name": "Patient safety",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "118",
+        "name": "Patient safety education",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "119",
+        "name": "Extremity warmth",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Warm",
+            "Cool"
+        ]
+    },
+    {
+        "id": "120",
+        "name": "Fall risk assessment",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Morse fall risk assessment",
+            "Hester Davis fall risk assessment"
+        ]
+    },
+    {
+        "id": "121",
+        "name": "Seizure activity",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "None",
+            "Occasional",
+            "Frequent"
+        ]
+    },
+    {
+        "id": "122",
+        "name": "Dental status",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "Oral care performed",
+            "Denture care",
+            "Brushed teeth",
+            "Missing teeth",
+            "Decaying teeth",
+            "Upper dentures",
+            "Lower dentures"
+        ]
+    },
+    {
+        "id": "123",
+        "name": "Friction and shear",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "No apparent problem",
+            "Potential problem",
+            "Problem"
+        ]
+    },
+    {
+        "id": "124",
+        "name": "General physical exam",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "within defined limits",
+            "within normal limits",
+            "WDL"
+        ]
+    },
+    {
+        "id": "125",
+        "name": "Sensory symptoms",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "Numbness and tingling in upper extremities",
+            "Numbness and tingling in lower extremities",
+            "Right upper extremity numbness and tingling",
+            "Left lower extremity numbness and tingling"
+        ]
+    },
+    {
+        "id": "126",
+        "name": "Patient height",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "127",
+        "name": "Patient education",
+        "value_type": "STRING"
+    },
+    {
+        "id": "128",
+        "name": "Bowel sounds",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "present in all quadrants",
+            "hyperactive in all quadrants",
+            "hypoactive in all quadrants",
+            "diminished in specific quadrants"
+        ]
+    },
+    {
+        "id": "129",
+        "name": "Incontinence status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "continent",
+            "incontinent"
+        ]
+    },
+    {
+        "id": "130",
+        "name": "Cognitive status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Alert",
+            "Alert with general confusion and forgetfulness",
+            "Disoriented to time",
+            "Forgetful at times",
+            "Hallucinations present",
+            "Hallucinations not present"
+        ]
+    },
+    {
+        "id": "131",
+        "name": "Gastrointestinal interventions",
+        "value_type": "STRING"
+    },
+    {
+        "id": "132",
+        "name": "Joint deformity",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "None",
+            "Mild",
+            "Severe"
+        ]
+    },
+    {
+        "id": "133",
+        "name": "Dressing condition",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Clean",
+            "Soiled",
+            "Wet"
+        ]
+    },
+    {
+        "id": "134",
+        "name": "Diarrhea episode",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "None",
+            "Occasional",
+            "Frequent"
+        ]
+    },
+    {
+        "id": "135",
+        "name": "Glasgow coma score - eye opening",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "spontaneous",
+            "to speech",
+            "to pain",
+            "none"
+        ]
+    },
+    {
+        "id": "136",
+        "name": "Respiratory equipment",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "incentive spirometer"
+        ]
+    },
+    {
+        "id": "137",
+        "name": "Jugular venous distention (JVD)",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Absent",
+            "Present"
+        ]
+    },
+    {
+        "id": "138",
+        "name": "Pulse",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "139",
+        "name": "Urine appearance",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "cloudy",
+            "dark",
+            "yellow",
+            "clear",
+            "blood"
+        ]
+    },
+    {
+        "id": "140",
+        "name": "Nasal discharge",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "None",
+            "Clear",
+            "Purulent"
+        ]
+    },
+    {
+        "id": "141",
+        "name": "Meal consumption",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Full",
+            "Partial",
+            "None"
+        ]
+    },
+    {
+        "id": "142",
+        "name": "Orthotic device use",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "143",
+        "name": "Moisture level",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "rarely moist",
+            "occasionally moist",
+            "four"
+        ]
+    },
+    {
+        "id": "144",
+        "name": "Urinary stone",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Present",
+            "Absent"
+        ]
+    },
+    {
+        "id": "145",
+        "name": "Gait and transferring",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Independent",
+            "Assisted",
+            "Dependent"
+        ]
+    },
+    {
+        "id": "146",
+        "name": "Patient position",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "sitting",
+            "supine",
+            "lying"
+        ]
+    },
+    {
+        "id": "147",
+        "name": "Swallowing function",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Normal",
+            "Painful",
+            "Difficulty"
+        ]
+    },
+    {
+        "id": "148",
+        "name": "Gastrointestinal symptoms",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "diarrhea",
+            "nausea",
+            "vomiting",
+            "constipation",
+            "no symptoms"
+        ]
+    },
+    {
+        "id": "149",
+        "name": "Skin condition",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "dry",
+            "flaky",
+            "red and blanchable",
+            "pale and clammy",
+            "pink",
+            "intact",
+            "elastic",
+            "warm",
+            "no discoloration"
+        ]
+    },
+    {
+        "id": "150",
+        "name": "Behavior",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Calm and cooperative",
+            "Inappropriate behavior",
+            "Agitated and combative",
+            "Impulsive"
+        ]
+    },
+    {
+        "id": "151",
+        "name": "Edema",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "No edema",
+            "Trace edema",
+            "+1 edema",
+            "Generalized edema",
+            "Bilateral pedal edema",
+            "Bilateral pedal and ankle edema"
+        ]
+    },
+    {
+        "id": "152",
+        "name": "Nasogastric tube status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Inserted",
+            "Not Inserted"
+        ]
+    },
+    {
+        "id": "153",
+        "name": "Motor reflexes",
+        "value_type": "STRING"
+    },
+    {
+        "id": "154",
+        "name": "Neck tenderness",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Tender",
+            "Not Tender"
+        ]
+    },
+    {
+        "id": "155",
+        "name": "Range of motion exercise",
+        "value_type": "STRING"
+    },
+    {
+        "id": "156",
+        "name": "Ear examination",
+        "value_type": "STRING"
+    },
+    {
+        "id": "157",
+        "name": "Bowel movement description",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "color: black",
+            "color: brown",
+            "color: green",
+            "consistency: loose",
+            "consistency: soft",
+            "consistency: formed",
+            "consistency: unformed",
+            "consistency: hard",
+            "amount: large",
+            "amount: medium",
+            "amount: copious",
+            "amount: unmeasured"
+        ]
+    },
+    {
+        "id": "158",
+        "name": "Hearing aid",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Using",
+            "Not Using"
+        ]
+    },
+    {
+        "id": "159",
+        "name": "Bed alarm status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Activated",
+            "Deactivated"
+        ]
+    },
+    {
+        "id": "160",
+        "name": "Vaginal discharge",
+        "value_type": "STRING"
+    },
+    {
+        "id": "161",
+        "name": "Fraction of inspired oxygen (FiO2)",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "162",
+        "name": "Patient identification",
+        "value_type": "STRING"
+    },
+    {
+        "id": "163",
+        "name": "Broset violence checklist - attacking objects",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "zero for attacking objects",
+            "one for attacking objects",
+            "two for attacking objects"
+        ]
+    },
+    {
+        "id": "164",
+        "name": "Level of assistance",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "independent",
+            "moderate assist"
+        ]
+    },
+    {
+        "id": "165",
+        "name": "Breath sounds",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "clear",
+            "diminished",
+            "wheezes"
+        ]
+    },
+    {
+        "id": "166",
+        "name": "Oxygen flow rate",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "167",
+        "name": "Pain description",
+        "value_type": "STRING"
+    },
+    {
+        "id": "168",
+        "name": "Heart rate source",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "monitor"
+        ]
+    },
+    {
+        "id": "169",
+        "name": "Voice quality",
+        "value_type": "STRING"
+    },
+    {
+        "id": "170",
+        "name": "Cough description",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "nonproductive cough",
+            "productive cough",
+            "no cough",
+            "dry cough"
+        ]
+    },
+    {
+        "id": "171",
+        "name": "Repositioning",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Completed",
+            "Not Completed"
+        ]
+    },
+    {
+        "id": "172",
+        "name": "Suction equipment",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Available",
+            "Not Available"
+        ]
+    },
+    {
+        "id": "173",
+        "name": "Tracheostomy status",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Present",
+            "Absent"
+        ]
+    },
+    {
+        "id": "174",
+        "name": "Bladder scan volume",
+        "value_type": "NUMERIC"
+    },
+    {
+        "id": "175",
+        "name": "Activity level",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "bed rest",
+            "walks occasionally",
+            "walking frequently",
+            "three"
+        ]
+    },
+    {
+        "id": "176",
+        "name": "Pressure injury stage",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "Stage 1",
+            "Stage 2",
+            "Stage 3",
+            "Stage 4",
+            "Unstageable",
+            "Deep tissue injury"
+        ]
+    },
+    {
+        "id": "177",
+        "name": "Urinary symptoms",
+        "value_type": "MULTI_SELECT",
+        "value_enum": [
+            "difficulty urinating",
+            "urgency",
+            "urine frequency",
+            "voids without difficulty"
+        ]
+    },
+    {
+        "id": "178",
+        "name": "Oxygen saturation unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "%",
+            "fraction"
+        ]
+    },
+    {
+        "id": "179",
+        "name": "Temperature unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "\u00c2\u00b0C",
+            "\u00c2\u00b0F"
+        ]
+    },
+    {
+        "id": "180",
+        "name": "Heart rate unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "bpm",
+            "Hz"
+        ]
+    },
+    {
+        "id": "181",
+        "name": "Pulse oximetry unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "%",
+            "fraction"
+        ]
+    },
+    {
+        "id": "182",
+        "name": "Respirations unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "breaths per minute",
+            "cycles per second"
+        ]
+    },
+    {
+        "id": "183",
+        "name": "Urine output unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "mL",
+            "L",
+            "cc"
+        ]
+    },
+    {
+        "id": "184",
+        "name": "Mean arterial pressure (MAP) unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "mmHg",
+            "kPa"
+        ]
+    },
+    {
+        "id": "185",
+        "name": "PO intake unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "mL",
+            "L",
+            "cc"
+        ]
+    },
+    {
+        "id": "186",
+        "name": "Patient weight unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "kg",
+            "lb"
+        ]
+    },
+    {
+        "id": "187",
+        "name": "Fraction of inspired oxygen (FiO2) unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "%",
+            "decimal"
+        ]
+    },
+    {
+        "id": "188",
+        "name": "Meal consumption unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "%",
+            "fraction"
+        ]
+    },
+    {
+        "id": "189",
+        "name": "Oxygen flow rate unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "L/min",
+            "mL/min"
+        ]
+    },
+    {
+        "id": "190",
+        "name": "Bladder scan volume unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "mL",
+            "L",
+            "cc"
+        ]
+    },
+    {
+        "id": "191",
+        "name": "Caloric intake unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "kcal",
+            "cal"
+        ]
+    },
+    {
+        "id": "192",
+        "name": "Emesis volume unit",
+        "value_type": "SINGLE_SELECT",
+        "value_enum": [
+            "mL",
+            "L",
+            "cc"
+        ]
+    }
+]
