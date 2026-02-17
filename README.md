@@ -1,4 +1,4 @@
-# MEDIQA-SYNUR 2026 - Structured Clinical Observation Extraction, HSE NLP team (avaliev)
+# MEDIQA-SYNUR 2026 - Structured Clinical Observation Extraction, HSE NLP team
 
 This repository contains the HSE NLP teams pipeline and models for the **MEDIQA-SYNUR 2026** competition. The goal is to extract structured clinical observations from nurse dictations based on a strict medical ontology.
 
