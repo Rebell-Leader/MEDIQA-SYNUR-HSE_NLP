@@ -12,3 +12,4 @@ dw_qwen_235b_5-shot-dynamic_test__RAG_REPAIRED_PARTIAL prec_label=0.79 prec 0.78
 dw_qwen_235b_0-shot_test_ensemble_v1_ENSEMBLE_REPAIRED_PARTIAL prec_label=0.73 prec 0.7319957004657829 rec 0.7508269018743109 f-1 0.7412917271407837
 dw_qwen_30b_5-shot-dynamic_test__RAG_ proc_label=NOT YET SUBMITTED TO COMPETITION, potential last submission if no better options are
 dw_qwen_235b_0-shot_test_ACE_v1_ENSEMBLE_REPAIRED_PARTIAL prec_label=0.78 prec 0.7812061711079944 rec 0.8188166115398751 f-1 0.7995693522339854
+gpt-5_0-shot_test_ensemble_v1_ENSEMBLE_REPAIRED_PARTIAL prec_label=0.58 prec 0.5797487628473544 rec 0.559720690922455 f-1 0.5695587135377712
