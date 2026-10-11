@@ -205,3 +205,46 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================================
+# MEDIQA-SYNUR project-specific
+# ============================================================
+
+# Secrets / credentials (keep only the template)
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editor / agent local settings
+.vscode/
+.idea/
+.claude/settings.local.json
+*.swp
+.DS_Store
+
+# Large or regenerable pipeline outputs
+# - batch request files (~420 MB, rebuilt by run_experiment.py)
+outputs/batches/
+# - submissions are mirrored in the top-level submission/ folder
+outputs/submission/
+outputs/debug_submission*/
+outputs/embeddings/
+outputs/results/
+outputs/results_validation/
+# - live Batch API job tracker (local state)
+outputs/status_check.json
+# - raw train embeddings (~11 MB, rebuilt by src/embeddings.py)
+outputs/results_*embedding*.jsonl
+outputs/rag_error_*.jsonl
+
+# Personal notes, vendor doc copies and scratch files (not part of the release)
+artifacts.md/
+todo.md
+debug_pipeline.py
+debug_pipeline.ipynb
+dev_candidates.jsonl
