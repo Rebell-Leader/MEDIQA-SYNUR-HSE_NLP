@@ -2,8 +2,9 @@ import os
 import sys
 import json
 from typing import List, Dict, Tuple
-from qdrant_client import QdrantClient
-from openai import OpenAI
+# Defer imports to avoid pydantic/qdrant hang in some environments
+# from qdrant_client import QdrantClient
+# from openai import OpenAI
 
 # Add project root
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
@@ -18,6 +19,9 @@ QDRANT_API_KEY_ENV = "QDRANT_API_KEY"
 
 class Retriever:
     def __init__(self):
+        from qdrant_client import QdrantClient
+        from openai import OpenAI
+
         # 1. Connect to Qdrant
         url = os.getenv(QDRANT_URL_ENV)
         key = os.getenv(QDRANT_API_KEY_ENV)

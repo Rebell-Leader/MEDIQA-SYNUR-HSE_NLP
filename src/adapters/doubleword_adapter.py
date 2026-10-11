@@ -1,7 +1,7 @@
 import json
 import time
 import os
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from tqdm import tqdm
 from openai import OpenAI
 from ..batch_manager import BatchManager
@@ -21,7 +21,7 @@ class DoublewordAdapter:
         )
         self.batch_manager = BatchManager()
 
-    def create_batch_file(self, items: List[Dict], schema: List[Dict], output_path: str, examples: List[Dict] = None) -> str:
+    def create_batch_file(self, items: List[Dict], schema: List[Dict], output_path: str, examples: List[Dict] = None, expert_hints_map: Dict[str, List[Dict]] = None, custom_messages_map: Dict[str, List[Dict]] = None) -> str:
         """
         Doubleword compatible batch file.
         Uses json_object instead of strict json_schema.
@@ -31,15 +31,16 @@ class DoublewordAdapter:
 
         with open(output_path, 'w') as f:
             for item in items:
-                custom_id = item['id']
+                custom_id = str(item['id'])
                 transcript = item['transcript']
 
                 # Check for RAG examples (dynamic) or Fallback to static
                 ex = item.get('_dynamic_examples') or examples
 
-                # Expert Hints (Adjudication or Ensemble)
-                hints = item.get('_expert_hints')
-                if hints and len(hints) >= 2:
+                # Custom Messages (e.g. for Repair)
+                if custom_messages_map and custom_id in custom_messages_map:
+                    messages = custom_messages_map[custom_id]
+                elif hints and len(hints) >= 2:
                     # Use Adjudicator prompt if we have 2 experts
                     from ..utils import build_adjudicator_messages
                     messages = build_adjudicator_messages(schema, transcript, hints[0], hints[1])
@@ -190,18 +191,26 @@ class DoublewordAdapter:
 
         return predictions
 
-    def predict_batch(self, items: List[Dict], schema: List[Dict], use_batch_api: bool = False, experiment_name: str = "debug_run_dw", examples: List[Dict] = None) -> List[List[Dict]]:
+    def predict_batch(self, items: List[Dict], schema: List[Dict], use_batch_api: bool = False, experiment_name: str = "debug_run_dw", examples: List[Dict] = None, wait: bool = True, expert_hints_map: Dict[str, List[Dict]] = None, custom_messages_map: Dict[str, List[Dict]] = None) -> Optional[List[List[Dict]]]:
         """
-        Facade for inference using BatchManager.
+        Facade for inference.
+        If use_batch_api=True, submits via BatchManager.
+        If wait=True, blocks until completion and returns results.
+        If wait=False, returns the batch_id immediately.
+        If use_batch_api=False, uses predict_direct.
         """
         if use_batch_api and self.config.supports_batch_api:
             # 1. Prepare Batch File
             batch_filename = f"batch_input_{self.config.model_id}_{experiment_name}_{int(time.time())}.jsonl"
             batch_path = os.path.join("outputs", "batches", batch_filename)
-            self.create_batch_file(items, schema, batch_path, examples)
+            self.create_batch_file(items, schema, batch_path, examples, expert_hints_map, custom_messages_map)
 
             # 2. Submit via Manager
             batch_id = self.batch_manager.submit_batch(self.client, batch_path, self.config.model_id, experiment_name)
+
+            if not wait:
+                print(f"Batch {batch_id} submitted (non-blocking).")
+                return batch_id
 
             # 3. Wait (Blocking) for compatibility
             print(f"Waiting for batch {batch_id} to complete...")
@@ -222,6 +231,6 @@ class DoublewordAdapter:
             result_path = os.path.join(self.batch_manager.output_dir, result_filename)
             res_map = self._parse_batch_results(result_path)
             # Align
-            return [res_map.get(item['id'], []) for item in items]
+            return [res_map.get(str(item['id']), []) for item in items]
         else:
             return self.predict_direct(items, schema, examples)

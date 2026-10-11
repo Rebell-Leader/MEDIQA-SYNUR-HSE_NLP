@@ -84,6 +84,17 @@ class BatchManager:
                 continue
 
             try:
+                # Basic heuristic: OpenAI IDs start with 'batch_', Doubleword use UUIDs or similar.
+                # If we're using the standard OpenAI client (no custom base_url or 'api.openai.com'),
+                # we should skip IDs that don't start with 'batch_'.
+                is_openai_client = "api.openai.com" in str(client.base_url)
+                if is_openai_client and not batch_id.startswith("batch_"):
+                    # Doubleword ID, skip for now
+                    continue
+                if not is_openai_client and batch_id.startswith("batch_"):
+                    # OpenAI ID, skip for the custom client
+                    continue
+
                 batch = client.batches.retrieve(batch_id)
                 current_status = batch.status
                 info['status'] = current_status
@@ -110,8 +121,9 @@ class BatchManager:
             return
 
         # Construct distinct output filename
-        # e.g. outputs/results_gpt-5-nano_0-shot_valid.jsonl
-        out_filename = f"results_{info['model']}_{info['experiment']}.jsonl"
+        # Sanitze model name (slash to underscore)
+        safe_model = info['model'].replace("/", "_")
+        out_filename = f"results_{safe_model}_{info['experiment']}.jsonl"
         out_path = os.path.join(self.output_dir, out_filename)
 
         if os.path.exists(out_path):

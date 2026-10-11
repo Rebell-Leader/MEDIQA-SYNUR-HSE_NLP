@@ -18,11 +18,16 @@ def save_jsonl(data: List[Dict], path: str):
         for item in data:
             f.write(json.dumps(item) + '\n')
 
-def build_system_prompt(schema: List[Dict]) -> str:
+def build_system_prompt(schema: List[Dict], custom_instructions: str = None) -> str:
     # Convert schema to string for prompt inclusion
     schema_str = json.dumps(schema, indent=2)
 
-    prompt = f"""You are a clinical documentation expert extracting structured observations from nurse dictations.
+    base_instructions = """You are a clinical documentation expert extracting structured observations from nurse dictations."""
+
+    if custom_instructions:
+        base_instructions = custom_instructions
+
+    prompt = f"""{base_instructions}
 
 TASK: Extract all clinical observations mentioned in the transcript and map them to the given ontology.
 
@@ -239,6 +244,7 @@ Output ONLY the final JSON object."""
 
 DATASETS = {
     "test": "SYNUR_testset_input.jsonl",
+    "test_gold": "test_gold.jsonl",
     "train": "train.jsonl",
     "dev": "dev.jsonl"
 }

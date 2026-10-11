@@ -7,3 +7,7 @@ scikit-learn
 pandas
 sentence-transformers
 qdrant-client
+# analysis, tables and paper figures
+matplotlib
+seaborn
+tiktoken

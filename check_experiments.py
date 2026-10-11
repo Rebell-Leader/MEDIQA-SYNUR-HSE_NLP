@@ -87,7 +87,9 @@ def main():
                 manager._download_results(client, batch_id, info)
 
                 exp_name = info['experiment']
-                result_filename = f"results_{model_key}_{exp_name}.jsonl"
+                # Sanitize model name (slash to underscore) to match BatchManager
+                safe_model = model_key.replace("/", "_")
+                result_filename = f"results_{safe_model}_{exp_name}.jsonl"
                 result_path = os.path.join("outputs", result_filename)
 
                 if os.path.exists(result_path):

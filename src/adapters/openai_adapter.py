@@ -33,7 +33,7 @@ class OpenAIAdapter:
             }
         return body
 
-    def create_batch_file(self, items: List[Dict], schema: List[Dict], output_path: str, examples: List[Dict] = None, expert_hints_map: Dict[str, List[Dict]] = None) -> str:
+    def create_batch_file(self, items: List[Dict], schema: List[Dict], output_path: str, examples: List[Dict] = None, expert_hints_map: Dict[str, List[Dict]] = None, custom_messages_map: Dict[str, List[Dict]] = None) -> str:
         """
         Creates a JSONL file formatted for OpenAI/Doubleword Batch API.
         """
@@ -81,7 +81,10 @@ class OpenAIAdapter:
                 # Expert Hints (Ensemble or Adjudication)
                 hints = item.get('_expert_hints') or (expert_hints_map.get(custom_id) if expert_hints_map else None)
 
-                if hints and len(hints) >= 2:
+                # Custom Messages (e.g. for Repair)
+                if custom_messages_map and custom_id in custom_messages_map:
+                    messages = custom_messages_map[custom_id]
+                elif hints and len(hints) >= 2:
                     from ..utils import build_adjudicator_messages
                     messages = build_adjudicator_messages(schema, transcript, hints[0], hints[1])
                 else:
@@ -224,20 +227,26 @@ class OpenAIAdapter:
 
         return predictions
 
-    def predict_batch(self, items: List[Dict], schema: List[Dict], use_batch_api: bool = False, experiment_name: str = "debug_run", examples: List[Dict] = None) -> List[List[Dict]]:
+    def predict_batch(self, items: List[Dict], schema: List[Dict], use_batch_api: bool = False, experiment_name: str = "debug_run", examples: List[Dict] = None, wait: bool = True, expert_hints_map: Dict[str, List[Dict]] = None, custom_messages_map: Dict[str, List[Dict]] = None) -> Optional[List[List[Dict]]]:
         """
         Facade for inference.
-        If use_batch_api=True, submits via BatchManager and waits (blocking).
+        If use_batch_api=True, submits via BatchManager.
+        If wait=True, blocks until completion and returns results.
+        If wait=False, returns the batch_id immediately.
         If use_batch_api=False, uses predict_direct.
         """
         if use_batch_api and self.config.supports_batch_api:
             # 1. Prepare Batch File in strict location
             batch_filename = f"batch_input_{self.config.model_id}_{experiment_name}_{int(time.time())}.jsonl"
             batch_path = os.path.join("outputs", "batches", batch_filename)
-            self.create_batch_file(items, schema, batch_path, examples)
+            self.create_batch_file(items, schema, batch_path, examples, expert_hints_map, custom_messages_map)
 
             # 2. Submit via Manager
             batch_id = self.batch_manager.submit_batch(self.client, batch_path, self.config.model_id, experiment_name)
+
+            if not wait:
+                print(f"Batch {batch_id} submitted (non-blocking).")
+                return batch_id
 
             # 3. Wait for Completion (Blocking Logic for Pipeline Compatibility)
             print(f"Waiting for batch {batch_id} to complete...")
@@ -265,7 +274,7 @@ class OpenAIAdapter:
 
             res_map = self._parse_batch_results(result_path)
             # Re-align to input list order
-            return [res_map.get(item['id'], []) for item in items]
+            return [res_map.get(str(item['id']), []) for item in items]
 
         else:
             return self.predict_direct(items, schema, examples)
