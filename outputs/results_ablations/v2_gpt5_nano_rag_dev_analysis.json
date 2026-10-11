@@ -1,0 +1,1086 @@
+{
+  "stats": {
+    "total_tp": 64,
+    "total_fp": 21,
+    "total_fn": 87,
+    "categories": {
+      "over_extraction": 12,
+      "missed_concept": 76,
+      "pure_hallucination": 9,
+      "value_mismatch": 11
+    }
+  },
+  "samples": [
+    {
+      "tp_count": 12,
+      "fp_count": 1,
+      "fn_count": 1,
+      "fp_details": [
+        {
+          "obs": {
+            "id": "139",
+            "value": "dark",
+            "value_type": "MULTI_SELECT",
+            "name": "Urine appearance"
+          },
+          "category": "over_extraction"
+        }
+      ],
+      "fn_details": [
+        {
+          "obs": {
+            "id": "183",
+            "value_type": "SINGLE_SELECT",
+            "name": "Urine output unit",
+            "value": "cc"
+          },
+          "category": "missed_concept"
+        }
+      ],
+      "id": "152"
+    },
+    {
+      "tp_count": 10,
+      "fp_count": 0,
+      "fn_count": 5,
+      "fp_details": [],
+      "fn_details": [
+        {
+          "obs": {
+            "id": "117",
+            "value_type": "SINGLE_SELECT",
+            "name": "Patient safety",
+            "value": "Yes"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "184",
+            "value_type": "SINGLE_SELECT",
+            "name": "Mean arterial pressure (MAP) unit",
+            "value": "mmHg"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "107",
+            "value_type": "SINGLE_SELECT",
+            "name": "Fall risk identification",
+            "value": "High"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "183",
+            "value_type": "SINGLE_SELECT",
+            "name": "Urine output unit",
+            "value": "cc"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "71",
+            "value_type": "SINGLE_SELECT",
+            "name": "Vomiting",
+            "value": "Yes"
+          },
+          "category": "missed_concept"
+        }
+      ],
+      "id": "88"
+    },
+    {
+      "tp_count": 5,
+      "fp_count": 6,
+      "fn_count": 5,
+      "fp_details": [
+        {
+          "obs": {
+            "id": "30",
+            "value": "Yes",
+            "value_type": "SINGLE_SELECT",
+            "name": "Nausea"
+          },
+          "category": "pure_hallucination"
+        },
+        {
+          "obs": {
+            "id": "71",
+            "value": "Yes",
+            "value_type": "SINGLE_SELECT",
+            "name": "Vomiting"
+          },
+          "category": "pure_hallucination"
+        },
+        {
+          "obs": {
+            "id": "166",
+            "value": 3,
+            "value_type": "NUMERIC",
+            "name": "Oxygen flow rate"
+          },
+          "category": "over_extraction"
+        },
+        {
+          "obs": {
+            "id": "13",
+            "value": "labored",
+            "value_type": "MULTI_SELECT",
+            "name": "Breathing pattern"
+          },
+          "category": "pure_hallucination"
+        },
+        {
+          "obs": {
+            "id": "22",
+            "value": "dark green",
+            "value_type": "SINGLE_SELECT",
+            "name": "Emesis color"
+          },
+          "category": "over_extraction"
+        },
+        {
+          "obs": {
+            "id": "174",
+            "value": 450,
+            "value_type": "NUMERIC",
+            "name": "Bladder scan volume"
+          },
+          "category": "over_extraction"
+        }
+      ],
+      "fn_details": [
+        {
+          "obs": {
+            "id": "148",
+            "value_type": "MULTI_SELECT",
+            "name": "Gastrointestinal symptoms",
+            "value": "nausea"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "148",
+            "value_type": "MULTI_SELECT",
+            "name": "Gastrointestinal symptoms",
+            "value": "vomiting"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "38",
+            "value_type": "SINGLE_SELECT",
+            "name": "Use of accessory muscles",
+            "value": "Yes"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "189",
+            "value_type": "SINGLE_SELECT",
+            "name": "Oxygen flow rate unit",
+            "value": "L/min"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "44",
+            "value_type": "STRING",
+            "name": "Voiding function",
+            "value": "problems"
+          },
+          "category": "missed_concept"
+        }
+      ],
+      "id": "103"
+    },
+    {
+      "tp_count": 17,
+      "fp_count": 3,
+      "fn_count": 10,
+      "fp_details": [
+        {
+          "obs": {
+            "id": "35",
+            "value": "Yes",
+            "value_type": "SINGLE_SELECT",
+            "name": "Urinary within defined limits"
+          },
+          "category": "pure_hallucination"
+        },
+        {
+          "obs": {
+            "id": "49",
+            "value": "Peripheral pulses are 2+ bilaterally.",
+            "value_type": "STRING",
+            "name": "Peripheral pulses"
+          },
+          "category": "over_extraction"
+        },
+        {
+          "obs": {
+            "id": "33",
+            "value": 102,
+            "value_type": "NUMERIC",
+            "name": "Heart rate"
+          },
+          "category": "over_extraction"
+        }
+      ],
+      "fn_details": [
+        {
+          "obs": {
+            "id": "182",
+            "value_type": "SINGLE_SELECT",
+            "name": "Respirations unit",
+            "value": "breaths per minute"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "67",
+            "value_type": "SINGLE_SELECT",
+            "name": "Dyspnea",
+            "value": "Moderate"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "178",
+            "value_type": "SINGLE_SELECT",
+            "name": "Oxygen saturation unit",
+            "value": "%"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "187",
+            "value_type": "SINGLE_SELECT",
+            "name": "Fraction of inspired oxygen (FiO2) unit",
+            "value": "decimal"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "129",
+            "value_type": "SINGLE_SELECT",
+            "name": "Incontinence status",
+            "value": "continent"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "49",
+            "value_type": "STRING",
+            "name": "Peripheral pulses",
+            "value": "2+"
+          },
+          "category": "value_mismatch"
+        },
+        {
+          "obs": {
+            "id": "89",
+            "value_type": "SINGLE_SELECT",
+            "name": "Mobility",
+            "value": "Limited"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "138",
+            "value_type": "NUMERIC",
+            "name": "Pulse",
+            "value": 102
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "180",
+            "value_type": "SINGLE_SELECT",
+            "name": "Heart rate unit",
+            "value": "bpm"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "181",
+            "value_type": "SINGLE_SELECT",
+            "name": "Pulse oximetry unit",
+            "value": "%"
+          },
+          "category": "missed_concept"
+        }
+      ],
+      "id": "151"
+    },
+    {
+      "tp_count": 9,
+      "fp_count": 4,
+      "fn_count": 4,
+      "fp_details": [
+        {
+          "obs": {
+            "id": "5",
+            "value": "There\u2019s no stoma.",
+            "value_type": "STRING",
+            "name": "Stoma appearance"
+          },
+          "category": "over_extraction"
+        },
+        {
+          "obs": {
+            "id": "50",
+            "value": 3,
+            "value_type": "NUMERIC",
+            "name": "Pain goal"
+          },
+          "category": "over_extraction"
+        },
+        {
+          "obs": {
+            "id": "51",
+            "value": "0 out of 10",
+            "value_type": "SINGLE_SELECT",
+            "name": "Pain severity"
+          },
+          "category": "pure_hallucination"
+        },
+        {
+          "obs": {
+            "id": "26",
+            "value": "increased confusion and forgetfulness.",
+            "value_type": "STRING",
+            "name": "Delirium symptoms"
+          },
+          "category": "over_extraction"
+        }
+      ],
+      "fn_details": [
+        {
+          "obs": {
+            "id": "168",
+            "value_type": "SINGLE_SELECT",
+            "name": "Heart rate source",
+            "value": "monitor"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "51",
+            "value_type": "SINGLE_SELECT",
+            "name": "Pain severity",
+            "value": "3 out of 10"
+          },
+          "category": "value_mismatch"
+        },
+        {
+          "obs": {
+            "id": "5",
+            "value_type": "STRING",
+            "name": "Stoma appearance",
+            "value": "0"
+          },
+          "category": "value_mismatch"
+        },
+        {
+          "obs": {
+            "id": "73",
+            "value_type": "NUMERIC",
+            "name": "Urine output",
+            "value": 0
+          },
+          "category": "missed_concept"
+        }
+      ],
+      "id": "112"
+    },
+    {
+      "tp_count": 2,
+      "fp_count": 1,
+      "fn_count": 15,
+      "fp_details": [
+        {
+          "obs": {
+            "id": "13",
+            "value": "",
+            "value_type": "MULTI_SELECT",
+            "name": "Breathing pattern"
+          },
+          "category": "over_extraction"
+        }
+      ],
+      "fn_details": [
+        {
+          "obs": {
+            "id": "189",
+            "value_type": "SINGLE_SELECT",
+            "name": "Oxygen flow rate unit",
+            "value": "L/min"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "67",
+            "value_type": "SINGLE_SELECT",
+            "name": "Dyspnea",
+            "value": "Severe"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "13",
+            "value_type": "MULTI_SELECT",
+            "name": "Breathing pattern",
+            "value": "labored"
+          },
+          "category": "value_mismatch"
+        },
+        {
+          "obs": {
+            "id": "149",
+            "value_type": "MULTI_SELECT",
+            "name": "Skin condition",
+            "value": "warm"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "149",
+            "value_type": "MULTI_SELECT",
+            "name": "Skin condition",
+            "value": "intact"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "151",
+            "value_type": "SINGLE_SELECT",
+            "name": "Edema",
+            "value": "Bilateral pedal edema"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "73",
+            "value_type": "NUMERIC",
+            "name": "Urine output",
+            "value": 300
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "183",
+            "value_type": "SINGLE_SELECT",
+            "name": "Urine output unit",
+            "value": "cc"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "139",
+            "value_type": "MULTI_SELECT",
+            "name": "Urine appearance",
+            "value": "cloudy"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "99",
+            "value_type": "SINGLE_SELECT",
+            "name": "Urine odor",
+            "value": "foul"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "42",
+            "value_type": "SINGLE_SELECT",
+            "name": "Toileting needs",
+            "value": 3
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "89",
+            "value_type": "SINGLE_SELECT",
+            "name": "Mobility",
+            "value": "Slightly limited"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "164",
+            "value_type": "SINGLE_SELECT",
+            "name": "Level of assistance",
+            "value": "moderate assist"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "37",
+            "value_type": "SINGLE_SELECT",
+            "name": "Motor strength",
+            "value": "Generalized weakness"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "130",
+            "value_type": "SINGLE_SELECT",
+            "name": "Cognitive status",
+            "value": "Alert with general confusion and forgetfulness"
+          },
+          "category": "missed_concept"
+        }
+      ],
+      "id": "86"
+    },
+    {
+      "tp_count": 7,
+      "fp_count": 2,
+      "fn_count": 4,
+      "fp_details": [
+        {
+          "obs": {
+            "id": "26",
+            "value": "delirium symptoms",
+            "value_type": "STRING",
+            "name": "Delirium symptoms"
+          },
+          "category": "over_extraction"
+        },
+        {
+          "obs": {
+            "id": "25",
+            "value": "inadequate",
+            "value_type": "SINGLE_SELECT",
+            "name": "Nutrition status"
+          },
+          "category": "pure_hallucination"
+        }
+      ],
+      "fn_details": [
+        {
+          "obs": {
+            "id": "0",
+            "value_type": "SINGLE_SELECT",
+            "name": "Broset violence checklist - confusion",
+            "value": "Yes"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "106",
+            "value_type": "SINGLE_SELECT",
+            "name": "Wound type",
+            "value": "Pressure Ulcer"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "148",
+            "value_type": "MULTI_SELECT",
+            "name": "Gastrointestinal symptoms",
+            "value": "vomiting"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "188",
+            "value_type": "SINGLE_SELECT",
+            "name": "Meal consumption unit",
+            "value": "%"
+          },
+          "category": "missed_concept"
+        }
+      ],
+      "id": "218"
+    },
+    {
+      "tp_count": 0,
+      "fp_count": 1,
+      "fn_count": 17,
+      "fp_details": [
+        {
+          "obs": {
+            "id": "19",
+            "value": "39.5',' Temperature? No keep numeric as number",
+            "value_type": "NUMERIC",
+            "name": "Temperature"
+          },
+          "category": "pure_hallucination"
+        }
+      ],
+      "fn_details": [
+        {
+          "obs": {
+            "id": "110",
+            "value_type": "SINGLE_SELECT",
+            "name": "Glasgow coma score - best verbal response",
+            "value": "inappropriate words"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "157",
+            "value_type": "MULTI_SELECT",
+            "name": "Bowel movement description",
+            "value": "color: black"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "157",
+            "value_type": "MULTI_SELECT",
+            "name": "Bowel movement description",
+            "value": "consistency: loose"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "103",
+            "value_type": "SINGLE_SELECT",
+            "name": "Stool consistency",
+            "value": "Loose"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "136",
+            "value_type": "SINGLE_SELECT",
+            "name": "Respiratory equipment",
+            "value": "incentive spirometer"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "39",
+            "value_type": "SINGLE_SELECT",
+            "name": "Communication sensory",
+            "value": "Inappropriate communication 1"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "31",
+            "value_type": "STRING",
+            "name": "Secondary diagnosis",
+            "value": "systemic infection, possibly sepsis"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "148",
+            "value_type": "MULTI_SELECT",
+            "name": "Gastrointestinal symptoms",
+            "value": "diarrhea"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "3",
+            "value_type": "MULTI_SELECT",
+            "name": "Respiratory interventions",
+            "value": "deep breathe"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "3",
+            "value_type": "MULTI_SELECT",
+            "name": "Respiratory interventions",
+            "value": "incentive spirometer usage"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "26",
+            "value_type": "STRING",
+            "name": "Delirium symptoms",
+            "value": "inappropriate communication"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "19",
+            "value_type": "NUMERIC",
+            "name": "Temperature",
+            "value": 39.5
+          },
+          "category": "value_mismatch"
+        },
+        {
+          "obs": {
+            "id": "179",
+            "value_type": "SINGLE_SELECT",
+            "name": "Temperature unit",
+            "value": "\u00c2\u00b0C"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "40",
+            "value_type": "SINGLE_SELECT",
+            "name": "Orientation",
+            "value": "disoriented"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "30",
+            "value_type": "SINGLE_SELECT",
+            "name": "Nausea",
+            "value": "Yes"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "28",
+            "value_type": "STRING",
+            "name": "Speech content",
+            "value": "inappropriate"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "130",
+            "value_type": "SINGLE_SELECT",
+            "name": "Cognitive status",
+            "value": "Disoriented to time"
+          },
+          "category": "missed_concept"
+        }
+      ],
+      "id": "216"
+    },
+    {
+      "tp_count": 1,
+      "fp_count": 2,
+      "fn_count": 15,
+      "fp_details": [
+        {
+          "obs": {
+            "id": "165",
+            "value": "1",
+            "value_type": "MULTI_SELECT",
+            "name": "Breath sounds"
+          },
+          "category": "over_extraction"
+        },
+        {
+          "obs": {
+            "id": "84",
+            "value": "nondistended,soft,nontender",
+            "value_type": "MULTI_SELECT",
+            "name": "Abdomen exam"
+          },
+          "category": "pure_hallucination"
+        }
+      ],
+      "fn_details": [
+        {
+          "obs": {
+            "id": "162",
+            "value_type": "STRING",
+            "name": "Patient identification",
+            "value": "Mr. Thompson"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "31",
+            "value_type": "STRING",
+            "name": "Secondary diagnosis",
+            "value": "COPD"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "67",
+            "value_type": "SINGLE_SELECT",
+            "name": "Dyspnea",
+            "value": "Mild"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "170",
+            "value_type": "SINGLE_SELECT",
+            "name": "Cough description",
+            "value": "nonproductive cough"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "84",
+            "value_type": "MULTI_SELECT",
+            "name": "Abdomen exam",
+            "value": "nondistended"
+          },
+          "category": "value_mismatch"
+        },
+        {
+          "obs": {
+            "id": "84",
+            "value_type": "MULTI_SELECT",
+            "name": "Abdomen exam",
+            "value": "soft"
+          },
+          "category": "value_mismatch"
+        },
+        {
+          "obs": {
+            "id": "84",
+            "value_type": "MULTI_SELECT",
+            "name": "Abdomen exam",
+            "value": "nontender"
+          },
+          "category": "value_mismatch"
+        },
+        {
+          "obs": {
+            "id": "99",
+            "value_type": "SINGLE_SELECT",
+            "name": "Urine odor",
+            "value": "strong unpleasant"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "88",
+            "value_type": "SINGLE_SELECT",
+            "name": "Urine color",
+            "value": "dark orange"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "177",
+            "value_type": "MULTI_SELECT",
+            "name": "Urinary symptoms",
+            "value": "voids without difficulty"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "130",
+            "value_type": "SINGLE_SELECT",
+            "name": "Cognitive status",
+            "value": "Alert"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "127",
+            "value_type": "STRING",
+            "name": "Patient education",
+            "value": "stressed the need for regular check-ups to keep an eye on things, especially his breathing"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "165",
+            "value_type": "MULTI_SELECT",
+            "name": "Breath sounds",
+            "value": "diminished"
+          },
+          "category": "value_mismatch"
+        },
+        {
+          "obs": {
+            "id": "40",
+            "value_type": "SINGLE_SELECT",
+            "name": "Orientation",
+            "value": "oriented x3"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "56",
+            "value_type": "SINGLE_SELECT",
+            "name": "Mental status",
+            "value": "15"
+          },
+          "category": "missed_concept"
+        }
+      ],
+      "id": "49"
+    },
+    {
+      "tp_count": 1,
+      "fp_count": 1,
+      "fn_count": 11,
+      "fp_details": [
+        {
+          "obs": {
+            "id": "139",
+            "value": ":[",
+            "value_type": "MULTI_SELECT",
+            "name": "Urine appearance"
+          },
+          "category": "pure_hallucination"
+        }
+      ],
+      "fn_details": [
+        {
+          "obs": {
+            "id": "67",
+            "value_type": "SINGLE_SELECT",
+            "name": "Dyspnea",
+            "value": "Moderate"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "139",
+            "value_type": "MULTI_SELECT",
+            "name": "Urine appearance",
+            "value": "cloudy"
+          },
+          "category": "value_mismatch"
+        },
+        {
+          "obs": {
+            "id": "139",
+            "value_type": "MULTI_SELECT",
+            "name": "Urine appearance",
+            "value": "dark"
+          },
+          "category": "value_mismatch"
+        },
+        {
+          "obs": {
+            "id": "99",
+            "value_type": "SINGLE_SELECT",
+            "name": "Urine odor",
+            "value": "strong unpleasant"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "177",
+            "value_type": "MULTI_SELECT",
+            "name": "Urinary symptoms",
+            "value": "difficulty urinating"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "128",
+            "value_type": "SINGLE_SELECT",
+            "name": "Bowel sounds",
+            "value": "hyperactive in all quadrants"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "53",
+            "value_type": "STRING",
+            "name": "Medications",
+            "value": "adjusted"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "20",
+            "value_type": "SINGLE_SELECT",
+            "name": "Suprapubic tenderness",
+            "value": "Yes"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "51",
+            "value_type": "SINGLE_SELECT",
+            "name": "Pain severity",
+            "value": "6 out of 10"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "90",
+            "value_type": "SINGLE_SELECT",
+            "name": "Glasgow coma score - best motor response",
+            "value": "localizes pain"
+          },
+          "category": "missed_concept"
+        },
+        {
+          "obs": {
+            "id": "40",
+            "value_type": "SINGLE_SELECT",
+            "name": "Orientation",
+            "value": "oriented x3"
+          },
+          "category": "missed_concept"
+        }
+      ],
+      "id": "20"
+    }
+  ]
+}
