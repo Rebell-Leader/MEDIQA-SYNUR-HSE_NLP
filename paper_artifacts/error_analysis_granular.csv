@@ -1,0 +1,1591 @@
+id,type,obs_id,obs_val,transcript_len
+0,FP,84,MULTI_SELECT,1242
+0,FN,59,Moderate rate,1242
+0,Value Error,84,soft,1242
+0,Value Error,84,round,1242
+0,Value Error,84,nontender,1242
+1,FP,40,disoriented,1125
+1,FP,130,Alert with general confusion and forgetfulness,1125
+1,FP,145,Assisted,1125
+1,FP,3,:[,1125
+1,Value Error,40,oriented x2,1125
+1,Value Error,130,Disoriented to time,1125
+1,FN,164,moderate assist,1125
+1,FN,28,Forgets details,1125
+1,FN,03,incentive spirometer usage,1125
+1,FN,03,deep breathe,1125
+1,FN,188,%,1125
+1,FN,174,0,1125
+2,FP,190,mL,1267
+2,FP,31,history of diabetes,1267
+2,FP,113,raised,1267
+2,FP,59,normal saline at 75 mL per hour,1267
+2,FP,124,WDL,1267
+2,FP,3,"[""raising head of bed"",""deep breathe""]",1267
+2,FP,139,"[""cloudy"",""dark""]",1267
+2,Value Error,139,cloudy,1267
+2,Value Error,139,dark,1267
+2,FN,03,raising head of bed,1267
+2,FN,03,deep breathe,1267
+2,Value Error,59,Normal saline 75mL per hour,1267
+2,Value Error,124,within defined limits,1267
+3,FP,31,post-operative from recent abdominal surgery.,1089
+3,FP,59,normal saline at a rate of 80 mL per hour,1089
+3,FP,2,Intact,1089
+3,FP,57,weak,1089
+3,Value Error,59,Normal saline at 80mL per hour,1089
+3,FN,02,Intact,1089
+3,FN,148,nausea,1089
+3,Value Error,57,Weak,1089
+4,FP,125,MULTI_SELECT,1406
+4,FP,139,MULTI_SELECT,1406
+4,FP,149,MULTI_SELECT,1406
+4,Value Error,125,Left lower extremity numbness and tingling,1406
+4,Value Error,149,intact,1406
+4,Value Error,149,warm,1406
+4,FN,183,mL,1406
+4,Value Error,139,clear,1406
+5,FP,31,COPD,1004
+5,FP,130,Alert with general confusion and forgetfulness,1004
+5,FP,87,Every 2 hours,1004
+5,FP,16,monitoring Braden scale,1004
+5,FP,125,N/A,1004
+5,Value Error,125,Numbness and tingling in upper extremities,1004
+5,FN,03,raising head of bed,1004
+5,Value Error,16,Monitored,1004
+6,FP,177,MULTI_SELECT? no placeholder,549
+6,Value Error,177,difficulty urinating,549
+6,Value Error,177,urgency,549
+6,FN,139,cloudy,549
+6,FN,139,yellow,549
+6,FN,165,wheezes,549
+6,FN,140,Clear,549
+6,FN,179,Ã‚Â°C,549
+6,FN,03,deep breathe,549
+6,FN,03,incentive spirometer usage,549
+7,FP,7,Dry,1109
+7,FP,23,evidence of muscle contractures,1109
+7,FP,131,No gastrointestinal interventions,1109
+7,FP,177,"MULTI_SELECT|Urinary symptoms|[""difficulty urinating"",""urgency"",""urine frequency""]",1109
+7,FP,139,"MULTI_SELECT|Urine appearance|[""cloudy"",""dark"",""blood""]",1109
+7,FP,149,"MULTI_SELECT|Skin condition|[""dry"",""pale and clammy""]",1109
+7,FN,40,oriented x3,1109
+7,FN,26,Cognitive disturbances,1109
+7,Value Error,177,difficulty urinating,1109
+7,Value Error,177,urgency,1109
+7,Value Error,177,urine frequency,1109
+7,FN,183,mL,1109
+7,Value Error,139,cloudy,1109
+7,Value Error,139,dark,1109
+7,Value Error,139,blood,1109
+7,FN,07,Dry,1109
+7,Value Error,149,dry,1109
+7,Value Error,149,pale and clammy,1109
+7,Value Error,23,"Evidence of, unspecified",1109
+7,Value Error,131,None,1109
+8,FP,46,Mobility is limited,711
+8,FP,139,"MULTI_SELECT|Urine appearance|[""cloudy"",""dark"",""blood""]",711
+8,FP,149,"MULTI_SELECT|Skin condition|[""pale and clammy""]",711
+8,FN,77,Impaired,711
+8,Value Error,139,cloudy,711
+8,Value Error,139,dark,711
+8,Value Error,139,blood,711
+8,Value Error,149,pale and clammy,711
+8,FN,89,Limited,711
+9,FP,139,"[""cloudy"",""blood""]",638
+9,FN,149,warm,638
+9,FN,149,intact,638
+9,FN,177,difficulty urinating,638
+9,Value Error,139,cloudy,638
+9,Value Error,139,blood,638
+9,FN,148,nausea,638
+9,FN,148,constipation,638
+10,FP,68,Partial assistance required,1355
+10,FP,149,"[""intact""]",1355
+10,Value Error,149,intact,1355
+10,FN,164,moderate assist,1355
+10,FN,16,Ongoing,1355
+10,FN,89,Limited,1355
+11,FP,32,Yes,1296
+11,FP,0,Yes,1296
+11,FP,29,narcotic analgesics,1296
+11,FP,25,adequate,1296
+11,FP,162,clear in all records for accurate monitoring and care.,1296
+11,FP,145,Assisted,1296
+11,FP,179,Â°C,1296
+11,FN,37,Weak,1296
+11,FN,89,Limited,1296
+11,Value Error,145,Dependent,1296
+11,FN,148,constipation,1296
+11,Value Error,29,Narcotic analgesics,1296
+11,FN,00,Yes,1296
+11,Value Error,179,Ã‚Â°C,1296
+11,FN,180,bpm,1296
+11,FN,182,breaths per minute,1296
+11,Value Error,162,clear in all records,1296
+12,FP,31,mild cognitive impairment,1585
+12,FP,6,"[""full weightbearing""]",1585
+12,FN,178,%,1585
+12,FN,189,L/min,1585
+12,FN,06,full weightbearing,1585
+12,FN,171,Completed,1585
+12,FN,149,intact,1585
+13,FP,181,%,1412
+13,FP,45,2+,1412
+13,FP,16,high risk for pressure ulcers,1412
+13,FN,37,Generalized weakness,1412
+13,FN,180,bpm,1412
+13,FN,182,breaths per minute,1412
+13,FN,179,Ã‚Â°C,1412
+13,FN,178,%,1412
+13,Value Error,16,Performed and is high risk,1412
+13,FN,89,Limited,1412
+14,FP,138,116,1091
+14,FP,13,"[""shallow"",""nonlabored""]",1091
+14,FN,33,116,1091
+14,Value Error,13,shallow,1091
+14,Value Error,13,nonlabored,1091
+15,FP,31,recent abdominal surgery,1542
+15,FP,107,High,1542
+15,FP,91,600 mLs,1542
+15,FP,88,clear,1542
+15,FP,125,MULTI_SELECT,1542
+15,FP,149,MULTI_SELECT,1542
+15,FN,184,mmHg,1542
+15,Value Error,149,dry,1542
+15,Value Error,149,intact,1542
+15,Value Error,125,Numbness and tingling in lower extremities,1542
+15,FN,71,No,1542
+15,FN,148,constipation,1542
+15,FN,89,Limited,1542
+15,FN,29,Narcotics,1542
+15,FN,96,Yes,1542
+15,Value Error,91,600,1542
+15,FN,185,mL,1542
+15,FN,139,clear,1542
+16,FP,7,Dry,1067
+16,FN,107,High,1067
+16,FN,07,Dry,1067
+17,FN,184,mmHg,933
+17,FN,148,vomiting,933
+18,FP,0,Yes,1206
+18,FP,6,"[""full weightbearing""]",1206
+18,FN,00,Yes,1206
+18,FN,184,mmHg,1206
+18,FN,06,full weightbearing,1206
+18,FN,96,Yes,1206
+19,FP,139,"[""cloudy"",""blood""]",1381
+19,FN,78,Yes,1381
+19,Value Error,139,cloudy,1381
+19,Value Error,139,blood,1381
+19,FN,131,antiemetics,1381
+20,FP,178,%,609
+20,FP,57,notably weak,609
+20,FP,7,Dry,609
+20,FP,13,['labored'],609
+20,FN,116,Increased,609
+20,FN,67,Moderate,609
+20,Value Error,13,labored,609
+20,Value Error,57,weak,609
+20,FN,07,Dry,609
+21,FP,30,Yes,881
+21,FP,71,No,881
+21,FP,84,"[""distended"",""tender""]",881
+21,FP,139,"[""dark""]",881
+21,FN,148,nausea,881
+21,FN,10,92,881
+21,Value Error,139,dark,881
+22,FP,7,Dry,853
+22,FP,184,mmHg,853
+22,FP,13,"{""labored""}",853
+22,Value Error,13,labored,853
+22,FN,165,diminished,853
+22,FN,07,Dry,853
+22,FN,84,round,853
+22,FN,84,soft,853
+22,FN,84,tender,853
+22,FN,84,nondistended,853
+22,FN,177,difficulty urinating,853
+22,FN,139,cloudy,853
+22,FN,88,yellow,853
+23,FP,7,Dry,1481
+23,FP,3,"MULTI_SELECT? No, value_type is mandatory per schema and will be included below.",1481
+23,FN,164,moderate assist,1481
+23,FN,07,Dry,1481
+23,FN,67,Mild,1481
+23,FN,03,raising head of bed,1481
+23,FN,03,deep breathe,1481
+24,FP,107,High,1370
+24,FP,117,No,1370
+24,FP,177,"[""urgency"",""difficulty urinating""]",1370
+24,FP,139,"[""cloudy"",""dark""]",1370
+24,FN,116,Increased,1370
+24,Value Error,177,urgency,1370
+24,Value Error,177,urine frequency,1370
+24,Value Error,139,cloudy,1370
+24,Value Error,139,dark,1370
+24,FN,127,not in place,1370
+25,FP,3,MULTI_SELECT,858
+25,FP,13,MULTI_SELECT,858
+25,FP,38,SINGLE_SELECT,858
+25,FP,149,MULTI_SELECT,858
+25,Value Error,38,Yes,858
+25,Value Error,13,labored,858
+25,FN,03,raising head of bed,858
+25,FN,03,incentive spirometer usage,858
+25,Value Error,149,intact,858
+25,Value Error,149,warm,858
+25,FN,145,Assisted,858
+25,FN,132,Mild,858
+25,FN,183,mL,858
+26,FP,31,lower respiratory infection,1022
+26,FP,151,+1 edema,1022
+26,FP,13,"[""labored""]",1022
+26,Value Error,31,respiratory infection,1022
+26,Value Error,13,labored,1022
+26,FN,61,Present,1022
+26,FN,45,1+,1022
+26,FN,162,arm band,1022
+27,FP,107,High,811
+27,FP,64,Dependent,811
+27,FP,177,"MULTI_SELECT|Urinary symptoms|[""difficulty urinating""]",811
+27,Value Error,177,difficulty urinating,811
+27,FN,40,disoriented,811
+27,Value Error,107,Medium,811
+27,Value Error,64,Assisted,811
+27,FN,48,Yes,811
+27,FN,117,Yes,811
+28,FP,67,Severe,1259
+28,FP,136,incentive spirometer,1259
+28,FP,113,raised,1259
+28,FP,117,Yes,1259
+28,FP,95,Intact,1259
+28,FP,3,MULTI_SELECT,1259
+28,FP,6,MULTI_SELECT,1259
+28,FP,13,MULTI_SELECT,1259
+28,FN,106,Surgical,1259
+28,Value Error,67,Mild,1259
+28,Value Error,13,labored,1259
+28,FN,03,raising head of bed,1259
+28,FN,03,incentive spirometer usage,1259
+28,FN,175,bed rest,1259
+28,FN,06,partial weightbearing,1259
+28,FN,25,adequate,1259
+28,FN,81,Ensured,1259
+28,FN,98,Yes,1259
+29,FP,181,%,1151
+29,FP,13,"[""labored""]",1151
+29,FP,148,"[""nausea""]",1151
+29,FN,168,monitor,1151
+29,Value Error,13,labored,1151
+29,FN,03,deep breathe,1151
+29,FN,61,Present,1151
+29,FN,130,Disoriented to time,1151
+29,Value Error,148,nausea,1151
+29,FN,178,%,1151
+30,FP,116,Increased,862
+30,FP,178,%,862
+30,FP,13,"[""labored""]",862
+30,Value Error,13,labored,862
+31,FP,67,None,1256
+31,FP,21,walker,1256
+31,FP,130,Forgetful at times,1256
+31,FP,165,"[""diminished""]",1256
+31,FN,180,bpm,1256
+31,FN,168,monitor,1256
+31,Value Error,165,diminished,1256
+32,FP,67,Mild,932
+32,FP,30,Yes,932
+32,FP,143,occasionally moist,932
+32,FP,13,"[""nonlabored""]",932
+32,Value Error,13,nonlabored,932
+32,FN,149,pale and clammy,932
+32,FN,148,nausea,932
+33,FP,31,COPD,1151
+33,FP,165,"[""diminished""]? nope",1151
+33,FP,3,"[""incentive spirometer usage""]",1151
+33,FP,6,"[""partial weightbearing""]",1151
+33,FP,84,"[""distended""]",1151
+33,Value Error,165,diminished,1151
+33,FN,03,incentive spirometer usage,1151
+33,FN,06,partial weightbearing,1151
+34,FP,111,45,1088
+34,FP,3,MULTI_SELECT,1088
+34,FP,6,MULTI_SELECT,1088
+34,FP,157,MULTI_SELECT,1088
+34,FN,136,incentive spirometer,1088
+34,FN,06,partial weightbearing,1088
+34,Value Error,157,consistency: soft,1088
+34,Value Error,157,color: brown,1088
+35,FN,130,Alert,720
+35,FN,37,Generalized weakness,720
+35,FN,178,%,720
+36,FP,13,"[""nonlabored""]",1664
+36,Value Error,13,nonlabored,1664
+36,FN,184,mmHg,1664
+37,FP,130,Alert,1109
+37,FP,175,bed rest,1109
+37,FP,13,"[""shallow""]",1109
+37,Value Error,13,shallow,1109
+37,FN,03,incentive spirometer usage,1109
+37,FN,93,nasal cannula,1109
+38,FP,130,Disoriented to time,817
+38,FP,136,incentive spirometer,817
+38,FP,13,"[""labored"",""shallow""]",817
+38,Value Error,130,Alert,817
+38,Value Error,13,labored,817
+38,Value Error,13,shallow,817
+38,FN,03,incentive spirometer usage,817
+39,FP,31,post-stroke,1244
+39,FP,4,Delayed,1244
+39,FP,114,1800,1244
+39,FN,184,mmHg,1244
+39,FN,25,adequate,1244
+40,FP,13,"MULTI_SELECT? No, ensure fields below",720
+40,Value Error,13,labored,720
+40,FN,148,nausea,720
+40,FN,148,vomiting,720
+40,FN,84,distended,720
+40,FN,84,tender,720
+41,FP,31,acute bronchitis exacerbated by COPD,1035
+41,FP,3,"[""incentive spirometer usage""]?}]} a mistake to be replaced with proper. Wait. We must output final JSON in required fields. I messed. Let's craft properly.} Sorry. I'll rewrite properly. The final answer: a JSON object with ",1035
+41,FN,13,labored,1035
+41,FN,03,incentive spirometer usage,1035
+41,FN,136,incentive spirometer,1035
+42,FP,59,normal saline at 100 mL/hr,1454
+42,FP,142,No,1454
+42,FP,177,MULTI_SELECT,1454
+42,Value Error,177,difficulty urinating,1454
+42,Value Error,177,urgency,1454
+42,FN,139,cloudy,1454
+42,Value Error,59,Normal saline 100mL/hr,1454
+42,FN,98,Yes,1454
+42,FN,179,Ã‚Â°F,1454
+42,Value Error,142,Yes,1454
+42,FN,117,Yes,1454
+43,FP,10,98,815
+43,FP,178,%,815
+43,FP,78,No,815
+43,FP,148,Gastrointestinal symptoms,815
+43,Value Error,148,nausea,815
+43,Value Error,148,constipation,815
+44,FP,0,Yes,717
+44,FP,164,moderate assist,717
+44,FP,177,,717
+44,FN,00,Yes,717
+44,Value Error,177,difficulty urinating,717
+45,FP,0,Yes,1266
+45,FP,91,oral intake is a struggle due to disorientation.,1266
+45,FN,00,Yes,1266
+46,FP,40,disoriented,1492
+46,FP,26,delirium or maybe a worsening in his cognitive status.,1492
+46,FP,64,Dependent,1492
+46,FP,191,kcal,1492
+46,FP,48,Yes,1492
+46,FP,0,Yes,1492
+46,FP,25,inadequate,1492
+46,FP,28,his speech was slurred,1492
+46,FP,66,on his sacrum,1492
+46,Value Error,26,Confused,1492
+46,Value Error,66,Sacrum,1492
+47,FP,26,"signs of delirium, specifically, uh, inattention and a bit of, um, memory disturbance.",1492
+47,FP,48,Yes,1492
+47,FP,0,Yes,1492
+47,FP,130,Alert,1492
+47,FP,89,Limited,1492
+47,Value Error,26,"Inattention, memory disturbance",1492
+47,FN,00,Yes,1492
+47,FN,81,Ensured,1492
+47,FN,14,Call light,1492
+47,FN,145,Assisted,1492
+47,FN,98,Yes,1492
+48,FP,167,an aching pain in their lower extremities,775
+48,FP,145,Dependent,775
+48,FP,191,kcal,775
+48,Value Error,167,Aching pain to lower extremities,775
+48,FN,148,constipation,775
+49,FP,40,disoriented,933
+49,FP,26,acute confusion and disorientation,933
+49,FP,96,No,933
+49,FP,84,[,933
+49,FP,139,[,933
+49,Value Error,26,"Confusion,disorientation",933
+49,Value Error,96,Yes,933
+49,Value Error,84,distended,933
+49,Value Error,84,soft,933
+49,FN,177,difficulty urinating,933
+49,Value Error,139,cloudy,933
+50,FP,127,"Patient education has been provided to ensure understanding of safety measures, especially considering the confusion.",1031
+50,FP,6,MULTI_SELECT,1031
+50,FN,180,bpm,1031
+50,FN,178,%,1031
+50,FN,149,intact,1031
+50,FN,149,elastic,1031
+50,FN,06,partial weightbearing,1031
+50,FN,06,weightbearing as tolerated to the left lower extremity,1031
+50,FN,118,Yes,1031
+51,FP,139,"[(""cloudy"",""blood"")]",1370
+51,FN,165,diminished,1370
+51,FN,165,wheezes,1370
+51,FN,03,incentive spirometer usage,1370
+51,FN,149,pale and clammy,1370
+51,FN,149,no discoloration,1370
+51,Value Error,139,cloudy,1370
+51,Value Error,139,blood,1370
+52,FP,31,history of urinary stones,810
+52,FP,2,Slightly limited,810
+52,FN,02,Slightly limited,810
+52,FN,03,incentive spirometer usage,810
+54,FP,6,"MULTI_SELECT|Weightbearing status|[""partial weightbearing"",""weightbearing as tolerated to the left lower extremity""]",1127
+54,FN,06,partial weightbearing,1127
+54,FN,06,weightbearing as tolerated to the left lower extremity,1127
+55,FP,40,disoriented,805
+55,FP,31,stroke,805
+55,FP,3,raising head of bed,805
+55,FP,6,partial weightbearing,805
+55,FN,96,Yes,805
+55,FN,06,partial weightbearing,805
+55,FN,06,weightbearing as tolerated to the right lower extremity,805
+55,FN,177,difficulty urinating,805
+55,FN,149,dry,805
+55,FN,03,raising head of bed,805
+57,FP,59,"normal saline at, uh, 75 mL per hour",1358
+57,FN,106,Pressure Ulcer,1358
+57,FN,175,bed rest,1358
+57,FN,98,Yes,1358
+57,FN,178,%,1358
+57,FN,189,L/min,1358
+58,FP,167,sharp pain,890
+58,FP,2,Slightly limited,890
+58,FP,178,%,890
+58,FP,26,No signs of delirium or confusion at this time,890
+58,FP,6,[,890
+58,FP,13,[,890
+58,FN,06,partial weightbearing,890
+58,FN,145,Assisted,890
+58,Value Error,167,Sharp,890
+58,FN,02,Slightly limited,890
+58,Value Error,13,nonlabored,890
+58,Value Error,26,None,890
+59,FP,184,mmHg,1476
+59,FP,2,Slightly limited,1476
+59,FP,0,Yes,1476
+59,FP,28,"it's slurred, and the content is incoherent at times.",1476
+59,FP,26,general confusion and forgetfulness,1476
+59,FN,02,Slightly limited,1476
+59,FN,00,Yes,1476
+59,Value Error,28,incoherent,1476
+60,FP,14,Safety equipment,1627
+60,FP,16,performed,1627
+60,FP,177,"[""difficulty urinating"",""urine frequency""]",1627
+60,Value Error,16,Performed,1627
+60,Value Error,177,difficulty urinating,1627
+60,Value Error,177,urine frequency,1627
+60,FN,117,Yes,1627
+61,FP,7,Dry,1378
+61,FP,16,completed,1378
+61,FP,49,present,1378
+61,FP,136,incentive spirometer,1378
+61,FP,149,,1378
+61,FP,165,,1378
+61,FP,157,,1378
+61,FN,130,Alert with general confusion and forgetfulness,1378
+61,Value Error,16,Completed,1378
+61,Value Error,49,Present,1378
+61,Value Error,149,dry,1378
+61,Value Error,149,intact,1378
+61,FN,03,incentive spirometer usage,1378
+61,Value Error,157,color: brown,1378
+61,Value Error,157,consistency: formed,1378
+61,Value Error,157,amount: medium,1378
+62,FP,81,Ensured,1304
+62,FP,25,inadequate,1304
+62,FP,16,increased risk for pressure injuries,1304
+62,FP,148,"[""nausea"",""vomiting"",""diarrhea""]",1304
+62,FN,78,Yes,1304
+62,Value Error,148,diarrhea,1304
+62,Value Error,148,nausea,1304
+62,Value Error,148,vomiting,1304
+62,Value Error,16,Increased risk for pressure injuries,1304
+63,FP,146,supine,955
+63,FP,158,Using,955
+63,FP,59,"saline, running at 75 mL/hr",955
+63,FP,16,moderately at risk for pressure injuries,955
+63,FP,84,"[""soft""]? wait no",955
+63,Value Error,59,"Saline, 75 mL/hr",955
+63,Value Error,16,Moderately at risk,955
+63,FN,149,intact,955
+63,FN,149,elastic,955
+63,FN,148,no symptoms,955
+63,Value Error,84,soft,955
+63,FN,117,Yes,955
+64,FP,59,normal saline at 75 mL/hr,1266
+64,FP,65,Yes,1266
+64,FP,2,Intact,1266
+64,FP,37,2 out of 5,1266
+64,FP,177,"MULTI_SELECT|Urinary symptoms|[""difficulty urinating""]",1266
+64,Value Error,177,difficulty urinating,1266
+64,FN,139,cloudy,1266
+64,FN,139,dark,1266
+64,FN,165,diminished,1266
+64,FN,107,High,1266
+64,Value Error,59,"Saline, 75 mL/hr",1266
+64,FN,02,Intact,1266
+64,Value Error,37,5 out of 5,1266
+65,FP,7,Dry,810
+65,FP,136,incentive spirometer,810
+65,FP,149,MULTI_SELECTstring reference to ontology is not allowed; corrected value provided below,810
+65,FN,07,Dry,810
+65,FN,151,Generalized edema,810
+65,FN,165,diminished,810
+65,FN,03,incentive spirometer usage,810
+67,FP,10,84,1143
+67,FP,178,%,1143
+67,FP,136,incentive spirometer,1143
+67,FP,71,Yes,1143
+67,FP,7,Dry,1143
+67,FP,165,MULTI_SELECT in ontology set to ['diminished'] as per transcript mapping,1143
+67,FN,07,Dry,1143
+67,Value Error,165,diminished,1143
+67,FN,84,distended,1143
+67,FN,34,84,1143
+67,FN,181,%,1143
+67,FN,139,cloudy,1143
+67,FN,139,dark,1143
+67,FN,03,incentive spirometer usage,1143
+68,FP,31,exacerbation of COPD,1386
+68,FP,26,confusion and disorientation,1386
+68,FP,4,Delayed,1386
+68,FP,67,Moderate,1386
+68,FP,72,28,1386
+68,FP,136,incentive spirometer,1386
+68,FP,7,Dry,1386
+68,FP,44,recent episode of constipation,1386
+68,FP,165,"[""diminished"",""wheezes""]",1386
+68,FN,40,disoriented,1386
+68,FN,33,28,1386
+68,FN,180,bpm,1386
+68,FN,03,incentive spirometer usage,1386
+68,Value Error,165,diminished,1386
+68,Value Error,165,wheezes,1386
+68,FN,07,Dry,1386
+68,FN,32,Yes,1386
+69,FP,151,Generalized edema,1458
+69,FP,167,sharp and localized in the suprapubic area.,1458
+69,FP,113,flat,1458
+69,Value Error,113,raised,1458
+70,FP,31,pneumonia,1078
+70,FP,26,confusion or delirium,1078
+70,FP,107,High,1078
+70,FP,16,assessed,1078
+70,FP,183,cc,1078
+70,FP,25,inadequate,1078
+70,FP,139,"[""dark"",""cloudy""]",1078
+70,FN,00,Yes,1078
+70,Value Error,26,Confusion,1078
+70,Value Error,107,Medium,1078
+70,Value Error,16,Implemented,1078
+70,Value Error,139,dark,1078
+70,Value Error,139,cloudy,1078
+70,FN,164,moderate assist,1078
+70,FN,148,no symptoms,1078
+71,FP,67,Moderate,930
+71,FP,7,Dry,930
+71,FP,141,Partial,930
+71,FP,166,50,930
+71,FN,180,bpm,930
+71,FN,07,Dry,930
+71,FN,91,50% of meal consumption,930
+71,FN,148,nausea,930
+71,FN,148,vomiting,930
+72,FP,162,72-year-old male,1312
+72,FP,107,High,1312
+72,FP,191,kcal,1312
+72,FP,148,"[""nausea"",""vomiting""]",1312
+72,FN,00,Yes,1312
+72,Value Error,107,Medium,1312
+72,FN,164,moderate assist,1312
+72,FN,37,Generalized weakness,1312
+72,Value Error,148,nausea,1312
+72,Value Error,148,vomiting,1312
+72,FN,118,Yes,1312
+73,FP,31,COPD,1034
+73,FP,7,Dry,1034
+73,FP,139,"[""dark"",""cloudy""]",1034
+73,FP,165,"[""diminished""]",1034
+73,FP,177,"[""difficulty urinating"",""urgency""]",1034
+73,FN,148,nausea,1034
+73,FN,148,vomiting,1034
+73,Value Error,177,difficulty urinating,1034
+73,Value Error,177,urgency,1034
+73,Value Error,139,cloudy,1034
+73,Value Error,165,diminished,1034
+73,FN,07,Dry,1034
+74,FP,26,"signs of delirium, likely related to the infection or maybe due to the oxygenation issues",580
+74,FP,13,,580
+74,FN,40,disoriented,580
+74,FN,139,cloudy,580
+74,FN,177,urgency,580
+74,Value Error,13,labored,580
+74,FN,03,incentive spirometer usage,580
+74,Value Error,26,Disorientation,580
+75,FP,26,new onset confusion and decreased responsiveness,1099
+75,FP,7,Dry,1099
+75,FP,0,Yes,1099
+75,FP,139,MULTI_SELECT ??????,1099
+75,FN,00,Yes,1099
+75,Value Error,26,Irritability and confusion,1099
+75,Value Error,139,cloudy,1099
+75,FN,07,Dry,1099
+76,FP,162,67-year-old male,1137
+76,FP,31,history of diabetes and hypertension,1137
+76,FP,177,"[""urine frequency"",""difficulty urinating""]",1137
+76,Value Error,177,difficulty urinating,1137
+76,Value Error,177,urine frequency,1137
+76,FN,148,constipation,1137
+76,FN,148,vomiting,1137
+76,FN,130,Disoriented to time,1137
+77,FP,31,"COPD, congestive heart failure",904
+77,FP,93,nasal cannula,904
+77,FP,49,weak,904
+77,FP,13,"[""labored""]",904
+77,Value Error,13,labored,904
+77,FN,177,urine frequency,904
+77,FN,96,No,904
+77,Value Error,49,Weak,904
+78,FN,165,diminished,973
+78,FN,139,cloudy,973
+79,FP,31,post-abdominal surgery,1067
+79,FP,113,raised,1067
+79,FP,29,prescribed analgesics,1067
+79,FP,3,"[""raising head of bed"",""incentive spirometer usage""]",1067
+79,FP,149,"[""red and blanchable"",""intact""]",1067
+79,FN,03,raising head of bed,1067
+79,FN,03,incentive spirometer usage,1067
+79,FN,136,incentive spirometer,1067
+79,FN,184,mmHg,1067
+79,FN,148,no symptoms,1067
+79,FN,164,moderate assist,1067
+79,Value Error,149,red and blanchable,1067
+79,Value Error,149,intact,1067
+79,Value Error,29,Prescribed analgesics,1067
+80,FP,40,disoriented,1164
+80,FP,179,°C,1164
+80,FP,13,:[,1164
+80,Value Error,179,Ã‚Â°C,1164
+80,FN,115,Yes,1164
+80,FN,00,Yes,1164
+80,FN,164,moderate assist,1164
+80,Value Error,13,labored,1164
+80,FN,177,urgency,1164
+80,FN,132,Mild,1164
+81,FP,77,Impaired,1042
+81,FN,167,Chronic ache in the joints,1042
+82,FP,162,72-year-old male,1316
+82,FP,130,Disoriented to time,1316
+82,FP,26,"altered mental status, confusion, disorientation",1316
+82,FP,183,mL,1316
+82,FP,71,Yes,1316
+82,FP,31,possible urinary tract infection,1316
+82,FP,13," [""labored"",""shallow""]",1316
+82,Value Error,13,labored,1316
+82,Value Error,13,shallow,1316
+82,Value Error,130,Alert with general confusion and forgetfulness,1316
+83,FP,138,78,1325
+83,FP,130,Disoriented to time,1325
+83,FP,177,"[""difficulty urinating"",""urgency""]",1325
+83,FN,40,disoriented,1325
+83,Value Error,177,difficulty urinating,1325
+83,Value Error,177,urgency,1325
+83,FN,33,78,1325
+83,FN,180,bpm,1325
+83,FN,181,%,1325
+83,FN,148,constipation,1325
+84,FP,130,Disoriented to time,1427
+84,FP,167,dull headache,1427
+84,FP,30,No,1427
+84,Value Error,130,Forgetful at times,1427
+84,Value Error,167,Dull headache,1427
+84,FN,181,%,1427
+84,FN,186,kg,1427
+84,FN,148,no symptoms,1427
+84,FN,107,Medium,1427
+84,FN,117,Yes,1427
+84,FN,14,Use of walker,1427
+85,FN,78,Yes,1550
+85,FN,107,Medium,1550
+85,FN,117,Yes,1550
+85,FN,03,incentive spirometer usage,1550
+85,FN,148,nausea,1550
+85,FN,148,vomiting,1550
+86,FP,0,Yes,1127
+86,FP,14,bed rails raised for safety,1127
+86,FP,149,"[""dry"",""intact"",""warm""]",1127
+86,FN,40,disoriented,1127
+86,FN,00,Yes,1127
+86,Value Error,14,Bed rails raised,1127
+86,Value Error,149,dry,1127
+86,Value Error,149,intact,1127
+86,Value Error,149,warm,1127
+87,FP,67,Mild,1236
+87,FP,77,Impaired,1236
+87,FP,130,Alert,1236
+87,FP,150,Calm and cooperative,1236
+87,Value Error,130,Forgetful at times,1236
+87,FN,56,forgets limitations,1236
+88,FP,31,history of cerebrovascular accident,1664
+88,FP,151, +1 edema,1664
+88,FN,40,disoriented,1664
+88,Value Error,151,+1 edema,1664
+88,FN,165,clear,1664
+88,FN,84,nondistended,1664
+88,FN,84,soft,1664
+88,FN,148,nausea,1664
+88,FN,148,vomiting,1664
+89,FP,177,[,723
+89,FN,148,nausea,723
+89,FN,148,vomiting,723
+89,Value Error,177,difficulty urinating,723
+89,FN,145,Assisted,723
+90,FP,139,"[""cloudy"",""blood""]",1234
+90,FP,177,"[""difficulty urinating"",""urgency""]",1234
+90,Value Error,139,cloudy,1234
+90,Value Error,139,blood,1234
+90,Value Error,177,difficulty urinating,1234
+90,Value Error,177,urgency,1234
+90,FN,178,%,1234
+90,FN,180,bpm,1234
+91,FP,0,Yes,999
+91,FP,139,"[""dark"",""blood""]",999
+91,FP,3,incentive spirometer usage,999
+91,FN,148,nausea,999
+91,FN,148,vomiting,999
+91,Value Error,139,blood,999
+91,FN,00,Yes,999
+91,FN,03,incentive spirometer usage,999
+91,FN,136,incentive spirometer,999
+92,FP,31,acute urinary retention,1337
+92,FP,139,"[""cloudy"",""dark""]",1337
+92,FP,3,"[""deep breathe"",""incentive spirometer usage""]",1337
+92,FN,167,Severe abdominal discomfort,1337
+92,FN,177,difficulty urinating,1337
+92,Value Error,139,cloudy,1337
+92,Value Error,139,dark,1337
+92,FN,110,oriented,1337
+92,FN,03,incentive spirometer usage,1337
+92,FN,03,deep breathe,1337
+93,FP,139,[,1207
+93,FN,78,Yes,1207
+93,Value Error,139,cloudy,1207
+93,Value Error,139,blood,1207
+94,FP,190,mL,1329
+94,FP,191,kcal,1329
+94,FN,03,incentive spirometer usage,1329
+95,FP,111,28,970
+95,FP,10,89,970
+95,FP,72,22,970
+95,FP,7,Dry,970
+95,FP,26,disorientation and confusion.,970
+95,Value Error,111,28,970
+95,FN,107,Medium,970
+95,FN,145,Assisted,970
+95,Value Error,10,89,970
+95,Value Error,72,22,970
+95,FN,07,Dry,970
+95,Value Error,26,Disorientation and confusion,970
+95,FN,117,Yes,970
+96,FP,3,"[""raising head of bed"",""incentive spirometer usage""]",966
+96,FN,03,raising head of bed,966
+96,FN,03,incentive spirometer usage,966
+96,FN,136,incentive spirometer,966
+96,FN,107,Medium,966
+97,FP,190,mL,1320
+97,FP,125,2,1320
+97,Value Error,125,Left lower extremity numbness and tingling,1320
+97,FN,136,incentive spirometer,1320
+97,FN,03,incentive spirometer usage,1320
+98,FP,26,confusion,886
+98,FP,31,cerebrovascular accident,886
+98,FN,180,bpm,886
+98,FN,00,Yes,886
+98,FN,178,%,886
+99,FP,153,basic reflexes are intact despite the other challenges.,1208
+99,FN,117,Yes,1208
+100,FP,4,Delayed,1637
+100,FP,139,MULTI_SELECT,1637
+100,FN,78,Yes,1637
+100,FN,04,Delayed,1637
+100,FN,177,urgency,1637
+100,FN,177,difficulty urinating,1637
+100,FN,183,mL,1637
+100,Value Error,139,cloudy,1637
+100,FN,157,consistency: soft,1637
+100,FN,148,constipation,1637
+100,FN,148,diarrhea,1637
+100,FN,32,Yes,1637
+101,FP,31,chronic obstructive pulmonary disease,1101
+101,FP,4,Delayed,1101
+101,FP,16,"we've been keeping up with the Braden scale assessment to, uh, prevent any skin issues",1101
+101,FN,04,Delayed,1101
+101,Value Error,16,Complete,1101
+101,FN,171,Completed,1101
+101,FN,118,Yes,1101
+101,FN,183,mL,1101
+102,FP,34,88,1028
+102,FP,181,%,1028
+102,FP,4,Delayed,1028
+102,FN,10,88,1028
+102,FN,178,%,1028
+102,FN,04,Delayed,1028
+102,FN,45,2+,1028
+103,FP,31,Chronic obstructive pulmonary disease,1329
+103,FP,26,increased episodes of confusion and some occasional hallucinations,1329
+103,FP,4,Delayed,1329
+103,FP,49,strong,1329
+103,FP,78,Yes,1329
+103,FP,3,"[""raising head of bed"",""incentive spirometer usage""]",1329
+103,FN,04,Delayed,1329
+103,Value Error,49,Strong,1329
+103,FN,113,raised,1329
+103,FN,03,raising head of bed,1329
+103,FN,03,incentive spirometer usage,1329
+103,FN,136,incentive spirometer,1329
+104,FP,26,"general confusion, forgetfulness, hallucinations are present",1992
+104,FP,87,Every 2 hours,1992
+104,FP,88,clear,1992
+104,FP,165,diminished_multiselect_placeholder,1992
+104,FP,179,Â°C,1992
+104,FN,89,Limited,1992
+104,Value Error,179,Ã‚Â°C,1992
+104,FN,130,Hallucinations present,1992
+104,Value Error,26,Hallucinations,1992
+104,FN,175,bed rest,1992
+104,FN,171,Completed,1992
+104,FN,106,Pressure Ulcer,1992
+104,Value Error,165,diminished,1992
+104,FN,139,clear,1992
+105,FP,89,Slightly limited,1151
+105,FP,130,Alert with general confusion and forgetfulness,1151
+105,FP,164,moderate assist,1151
+105,FN,78,Yes,1151
+105,FN,139,dark,1151
+105,FN,151,Bilateral pedal and ankle edema,1151
+105,Value Error,89,Limited,1151
+105,FN,64,Assisted,1151
+106,FP,13,"{""value_type"":""MULTI_SELECT"",""name"":""Breathing pattern"",""value"":[""labored""]}",1240
+106,FP,165,"{""value_type"":""MULTI_SELECT"",""name"":""Breath sounds"",""value"":[""wheezes""]}",1240
+106,FP,132,"{""value_type"":""SINGLE_SELECT"",""name"":""Joint deformity"",""value"":""Mild""}",1240
+106,Value Error,165,wheezes,1240
+106,Value Error,13,labored,1240
+106,Value Error,132,Mild,1240
+106,FN,106,Pressure Ulcer,1240
+107,FP,31,hypertension and COPD,1034
+107,FP,34,89,1034
+107,FP,181,%,1034
+107,FP,64,Assisted,1034
+107,FP,164,moderate assist,1034
+107,FP,87,Every 2 hours,1034
+107,FP,66,sacrum,1034
+107,FP,13,"[""labored""]",1034
+107,FN,78,Yes,1034
+107,Value Error,13,labored,1034
+107,FN,10,89,1034
+107,FN,178,%,1034
+107,FN,145,Assisted,1034
+107,FN,171,Completed,1034
+107,FN,106,Pressure Ulcer,1034
+108,FP,40,disoriented,1064
+108,FP,167,dull ache in the right hip,1064
+108,FP,26,"delirium symptoms, including confusion and disorientation",1064
+108,FP,31,pneumonia,1064
+108,FP,165,"[""diminished"",""wheezes""]",1064
+108,FN,179,Ã‚Â°C,1064
+108,FN,178,%,1064
+108,Value Error,165,diminished,1064
+108,Value Error,165,wheezes,1064
+108,FN,106,Pressure Ulcer,1064
+108,Value Error,167,Dull ache in right hip,1064
+108,FN,78,Yes,1064
+108,Value Error,26,"Confusion, disorientation",1064
+109,FP,29,acetaminophen as needed,1553
+109,FP,33,92,1553
+109,FP,10,96,1553
+109,FP,7,Dry,1553
+109,FP,139,"[""dark""]",1553
+109,FP,148,"[""nausea"",""vomiting""]",1553
+109,FP,177,"[""difficulty urinating""]",1553
+109,FN,30,Yes,1553
+109,Value Error,148,nausea,1553
+109,Value Error,148,vomiting,1553
+109,Value Error,139,dark,1553
+109,Value Error,177,difficulty urinating,1553
+109,Value Error,29,Acetaminophen,1553
+109,FN,138,92,1553
+109,FN,34,96,1553
+109,FN,181,%,1553
+109,FN,78,Yes,1553
+109,FN,07,Dry,1553
+109,FN,122,Missing teeth,1553
+110,FP,84,"[""round"",""tender""]",1207
+110,FP,177,"[""urgency"",""urine frequency""]",1207
+110,Value Error,84,tender,1207
+110,Value Error,84,round,1207
+110,Value Error,177,urgency,1207
+110,Value Error,177,urine frequency,1207
+111,FP,65,Yes,896
+111,FP,7,Dry,896
+111,FP,85,Serous,896
+111,FP,3,,896
+111,FN,07,Dry,896
+111,FN,133,Wet,896
+111,FN,03,raising head of bed,896
+111,FN,03,deep breathe,896
+112,FP,151,+1 edema,1260
+112,FP,6,partial weightbearing,1260
+112,FN,45,1+,1260
+112,FN,06,partial weightbearing,1260
+113,FP,76,Unequal,1399
+113,FP,107,Medium,1399
+113,Value Error,107,High,1399
+113,FN,148,no symptoms,1399
+114,FP,37,Weak,935
+114,FP,127,swallowing techniques to help her with meals and ensure safety,935
+114,FP,32,Yes,935
+114,FP,142,No,935
+114,FP,148,"[""constipation""]",935
+114,FN,178,%,935
+114,Value Error,148,constipation,935
+115,FP,31,suspected pneumonia infection,1474
+115,FP,93,nonrebreather mask,1474
+115,FP,165,MULTI_SELECT,1474
+115,FP,149,MULTI_SELECT,1474
+115,Value Error,165,diminished,1474
+115,Value Error,165,wheezes,1474
+115,FN,184,mmHg,1474
+115,Value Error,149,flaky,1474
+115,Value Error,149,dry,1474
+116,FP,10,88,502
+116,FP,67,Severe,502
+116,FN,178,%,502
+116,Value Error,67,Moderate,502
+117,FP,6,non-weightbearing,1010
+117,FN,06,non-weightbearing,1010
+118,FP,115,Yes,852
+118,FP,44,void without difficulty,852
+118,FP,84,"[""round"",""tender""]",852
+118,FP,148,"[""nausea""]",852
+118,Value Error,84,round,852
+118,Value Error,84,tender,852
+118,FN,30,Yes,852
+118,FN,177,voids without difficulty,852
+119,FP,71,Yes,651
+119,FP,26,confusion and has difficulty following commands,651
+119,FP,117,Yes,651
+119,FP,177,"[""difficulty urinating"",""urgency""]",651
+119,FN,178,%,651
+119,FN,148,nausea,651
+119,FN,148,vomiting,651
+119,FN,96,No,651
+119,FN,00,Yes,651
+119,Value Error,177,urgency,651
+119,Value Error,177,difficulty urinating,651
+120,FP,31,chronic obstructive pulmonary disease,1495
+120,FP,13,"MULTI_SELECT|Breathing pattern|[""nonlabored""]} , {",1495
+120,Value Error,13,nonlabored,1495
+120,FN,165,diminished,1495
+121,FP,38,Yes,1042
+121,FP,136,incentive spirometer,1042
+121,FP,0,Yes,1042
+121,FP,64,Assisted,1042
+121,FP,148,"[""diarrhea""]",1042
+121,FN,03,incentive spirometer usage,1042
+121,FN,67,Mild,1042
+121,FN,00,Yes,1042
+121,FN,134,Occasional,1042
+121,FN,89,Mildly impaired,1042
+121,FN,164,moderate assist,1042
+122,FP,0,Yes,972
+122,FP,3,"[""raising head of bed"",""incentive spirometer usage""]",972
+122,FN,00,Yes,972
+122,FN,03,raising head of bed,972
+122,FN,03,incentive spirometer usage,972
+122,FN,148,vomiting,972
+123,FP,145,Dependent,1354
+123,FP,136,incentive spirometer,1354
+123,FP,56,forgets limitations,1354
+123,FP,0,Yes,1354
+123,FP,148,MULTI_SELECT,1354
+123,Value Error,148,diarrhea,1354
+123,Value Error,148,nausea,1354
+123,Value Error,148,vomiting,1354
+123,FN,03,incentive spirometer usage,1354
+123,FN,03,deep breathe,1354
+123,FN,00,Yes,1354
+124,FP,0,Yes,1175
+124,FP,3,"[""raising head of bed"",""incentive spirometer usage""]",1175
+124,FN,00,Yes,1175
+124,FN,03,raising head of bed,1175
+124,FN,03,incentive spirometer usage,1175
+125,FP,26,slight confusion intermittently,1008
+125,FP,117,Yes,1008
+125,FP,172,Not Available,1008
+125,FP,177,"[""difficulty urinating"",""urgency""]",1008
+125,FN,180,bpm,1008
+125,Value Error,177,urgency,1008
+125,Value Error,177,difficulty urinating,1008
+126,FP,177,"[""difficulty urinating"",""urgency""]",945
+126,Value Error,177,difficulty urinating,945
+126,Value Error,177,urgency,945
+127,FP,161,40,1528
+127,FP,187,%,1528
+127,FP,190,mL,1528
+127,FP,77,Intact,1528
+127,FP,4,Delayed,1528
+127,FP,6,partial weightbearing,1528
+127,FN,06,partial weightbearing,1528
+127,FN,177,urine frequency,1528
+127,FN,177,difficulty urinating,1528
+127,FN,130,Alert,1528
+127,FN,04,Delayed,1528
+128,FP,177,"{""value_type"":""MULTI_SELECT"",""name"":""Urinary symptoms"",""value"":[""urgency"",""difficulty urinating""]}",721
+128,Value Error,177,urgency,721
+128,Value Error,177,difficulty urinating,721
+129,FP,127,emphasizing deep breathing and coughing techniques to prevent atelectasis,1070
+129,FP,3,"MULTI_SELECT, Respiratory interventions, [""raising head of bed"",""deep breathe"",""incentive spirometer usage""]",1070
+129,FP,6,"MULTI_SELECT, Weightbearing status, [""non-weightbearing"",""partial weightbearing""]",1070
+129,FN,03,raising head of bed,1070
+129,FN,03,deep breathe,1070
+129,FN,03,incentive spirometer usage,1070
+129,FN,03,turn cough,1070
+129,FN,136,incentive spirometer,1070
+129,FN,06,non-weightbearing,1070
+130,FP,40,oriented x3,1143
+130,FP,190,mL,1143
+130,FP,6,"[""partial weightbearing""]",1143
+130,FP,3,"[""incentive spirometer usage""]",1143
+130,Value Error,40,oriented x4,1143
+130,FN,06,partial weightbearing,1143
+130,FN,167,At the surgical site,1143
+130,FN,03,incentive spirometer usage,1143
+130,FN,136,incentive spirometer,1143
+131,FP,190,mL,1247
+131,FP,6,non-weightbearing,1247
+131,FP,3,"[""raising head of bed"",""incentive spirometer usage""]",1247
+131,FP,179, c2 b0C,1247
+131,FN,06,non-weightbearing,1247
+131,FN,03,raising head of bed,1247
+131,FN,03,incentive spirometer usage,1247
+131,FN,136,incentive spirometer,1247
+131,Value Error,179,Ã‚Â°C,1247
+132,FP,190,mL,1520
+132,FP,191,kcal,1520
+132,FP,3,[,1520
+132,FN,89,Limited,1520
+132,FN,06,partial weightbearing,1520
+132,FN,03,incentive spirometer usage,1520
+132,FN,03,deep breathe,1520
+132,FN,03,raising head of bed,1520
+133,FP,183,cc,801
+133,FP,148,"MULTI_SELECT|Gastrointestinal symptoms|vomiting,nausea",801
+133,FN,67,Mild,801
+133,Value Error,148,vomiting,801
+133,Value Error,148,nausea,801
+134,FP,148,"[""nausea"",""vomiting""]?,",1032
+134,FN,67,Moderate,1032
+134,FN,116,Increased,1032
+134,Value Error,148,nausea,1032
+134,Value Error,148,vomiting,1032
+134,FN,30,Yes,1032
+134,FN,71,Yes,1032
+134,FN,175,bed rest,1032
+135,FP,18,500,1186
+135,FP,179,\\u00c2\\u00b0C,1186
+135,FN,67,Moderate,1186
+135,FN,148,nausea,1186
+135,FN,148,vomiting,1186
+135,Value Error,179,Ã‚Â°C,1186
+136,FP,31,COPD,1456
+136,FN,148,nausea,1456
+136,FN,148,vomiting,1456
+137,FP,47,nasogastric tube,1126
+137,FN,79,Present,1126
+137,FN,81,Ensured,1126
+138,FP,49,present but weak,938
+138,FP,165,"[""clear"",""wheezes""]",938
+138,FN,130,Disoriented to time,938
+138,FN,116,Increased,938
+138,Value Error,165,clear,938
+138,Value Error,165,wheezes,938
+138,Value Error,49,Present but weak,938
+139,FP,137,Present,1338
+139,FP,49,diminished,1338
+139,FP,148,"[""constipation""]",1338
+139,Value Error,137,Absent,1338
+139,Value Error,148,constipation,1338
+139,Value Error,49,Diminished,1338
+139,FN,35,No,1338
+139,FN,183,cc,1338
+140,FP,117,No,611
+140,FP,179,\\u00c2\\u00b0C,611
+140,Value Error,179,Ã‚Â°C,611
+140,FN,148,nausea,611
+140,FN,148,vomiting,611
+140,Value Error,117,Yes,611
+141,FP,107,High,1006
+141,FP,0,Yes,1006
+141,FP,177,"[""urgency"",""urine frequency""]",1006
+141,FN,00,Yes,1006
+141,FN,14,Bed rails,1006
+141,Value Error,177,urgency,1006
+141,Value Error,177,urine frequency,1006
+142,FP,45,1+,968
+142,FN,130,Alert with general confusion and forgetfulness,968
+142,FN,148,nausea,968
+143,FP,49,diminished,1567
+143,FP,16,ongoing,1567
+143,FP,29,analgesics PRN,1567
+143,FP,148,,1567
+143,FN,149,dry,1567
+143,FN,149,flaky,1567
+143,Value Error,49,Diminished,1567
+143,FN,30,Yes,1567
+143,Value Error,148,nausea,1567
+143,Value Error,148,constipation,1567
+143,FN,89,Limited,1567
+143,FN,14,Side rails up,1567
+143,Value Error,16,Ongoing,1567
+143,Value Error,29,Analgesics PRN,1567
+143,FN,178,%,1567
+144,FP,26,noticeable confusion and behavioral changes since admission.,1214
+144,FN,00,Yes,1214
+144,Value Error,26,"Confusion, behavioral changes, agitation",1214
+144,FN,81,Ensured,1214
+145,FP,4,Normal,1009
+145,FP,177,,1009
+145,Value Error,177,urine frequency,1009
+145,FN,88,clear,1009
+145,FN,04,Normal,1009
+145,FN,03,incentive spirometer usage,1009
+145,FN,165,clear,1009
+146,FP,130,Alert with general confusion and forgetfulness,1615
+146,FP,165,[,1615
+146,FP,177,[,1615
+146,FP,148,[,1615
+146,Value Error,165,diminished,1615
+146,FN,03,incentive spirometer usage,1615
+146,Value Error,177,urgency,1615
+146,Value Error,148,nausea,1615
+146,Value Error,148,vomiting,1615
+147,FP,177,Multiselect placeholder,639
+147,Value Error,177,urine frequency,639
+147,Value Error,177,difficulty urinating,639
+148,FP,130,Disoriented to time,985
+148,FP,44,difficulty urinating,985
+148,FP,4,Delayed,985
+148,FP,26,delirium symptoms,985
+148,FP,139,"[""cloudy"",""dark"",""blood""],",985
+148,FN,78,Yes,985
+148,Value Error,130,Alert with general confusion and forgetfulness,985
+148,Value Error,26,"Agitated, confused, disoriented",985
+148,FN,40,disoriented,985
+148,FN,04,Delayed,985
+148,FN,177,difficulty urinating,985
+148,Value Error,139,cloudy,985
+148,Value Error,139,blood,985
+148,FN,148,nausea,985
+149,FP,31,COPD,1099
+149,FP,16,"skin is red and blanchable, but no discoloration",1099
+149,FP,127,"respiratory intervention program, deep breathing exercises",1099
+149,FP,13,,1099
+149,FN,67,Mild,1099
+149,FN,178,%,1099
+149,Value Error,13,nonlabored,1099
+149,Value Error,16,Performed,1099
+149,FN,149,red and blanchable,1099
+149,FN,149,no discoloration,1099
+149,FN,89,Limited,1099
+149,FN,03,deep breathe,1099
+150,FP,40,disoriented,1657
+150,FP,107,High,1657
+150,FP,151,Bilateral pedal edema,1657
+150,FN,148,constipation,1657
+150,FN,84,distended,1657
+150,FN,36,distended,1657
+150,FN,180,bpm,1657
+150,FN,140,Clear,1657
+150,FN,130,Disoriented to time,1657
+150,Value Error,107,Medium,1657
+150,FN,117,Yes,1657
+151,FP,0,Yes,1338
+151,FP,57,diminished,1338
+151,FN,107,High,1338
+151,FN,00,Yes,1338
+151,FN,26,Confusion and irritability,1338
+151,FN,132,Mild,1338
+151,Value Error,57,Diminished,1338
+152,FP,78,Yes,973
+152,FN,107,Low,973
+152,FN,162,Identified as fall risk,973
+152,FN,175,bed rest,973
+153,FP,67,Mild,1539
+154,FN,116,Increased,1295
+154,FN,179,Ã‚Â°C,1295
+154,FN,67,Moderate,1295
+155,FP,31,"hypertension, COPD, and osteoarthritis",1822
+155,FP,53,COPD inhaler,1822
+155,FP,149,"[""dry"",""flaky""]",1822
+155,FN,67,Moderate,1822
+155,FN,167,Moderate musculoskeletal pain flare-up with chronic knee and hip pain from her osteoarthritis,1822
+155,FN,89,Limited,1822
+155,Value Error,149,dry,1822
+155,Value Error,149,flaky,1822
+155,FN,50,3,1822
+156,FP,7,Dry,1222
+156,FP,23,noted,1222
+156,FP,130,Disoriented to time,1222
+156,FP,149,"[""dry"",""intact"",""elastic""]",1222
+156,FP,177,"[""difficulty urinating""]",1222
+156,FN,107,Medium,1222
+156,Value Error,130,Alert,1222
+156,Value Error,177,difficulty urinating,1222
+156,FN,07,Dry,1222
+156,Value Error,23,Present,1222
+156,Value Error,149,dry,1222
+156,Value Error,149,intact,1222
+156,Value Error,149,elastic,1222
+157,FP,107,High,1500
+157,FP,149,1,1500
+157,Value Error,149,pale and clammy,1500
+157,FN,148,no symptoms,1500
+157,FN,51,0 out of 10,1500
+157,Value Error,107,Medium,1500
+157,FN,167,Joint pain,1500
+158,FP,29,appropriate meds,1485
+158,FP,191,kcal,1485
+158,FP,141,Partial,1485
+158,FP,26,delirium episodes,1485
+158,FP,67,Moderate,1485
+158,FP,14,"armbands, safety equipment, the usual.",1485
+158,FP,3,"[""turn cough"",""deep breathe"",""incentive spirometer usage""]",1485
+158,FP,177,"[""urgency"",""difficulty urinating""]",1485
+158,Value Error,29,Medications,1485
+158,FN,91,75% of meals,1485
+158,FN,03,incentive spirometer usage,1485
+158,FN,03,turn cough,1485
+158,FN,03,deep breathe,1485
+158,Value Error,67,Mild,1485
+158,FN,89,Limited,1485
+158,Value Error,14,Armbands and usual safety equipment,1485
+158,Value Error,177,urgency,1485
+158,Value Error,177,difficulty urinating,1485
+160,FP,87,Every 2 hours,998
+160,FP,147,Difficulty,998
+160,FP,49,diminished at the pedal branches,998
+160,FP,124,within normal limits,998
+160,FP,107,High,998
+160,FP,177,"[""urgency""]",998
+160,FN,171,Completed,998
+160,Value Error,49,diminished,998
+160,Value Error,124,within defined limits,998
+160,Value Error,177,urgency,998
+160,FN,14,safety measures ,998
+161,FP,144,Present,1055
+161,FN,42,2,1055
+162,FP,0,Yes,1065
+162,FP,67,Moderate,1065
+162,FP,34,88,1065
+162,FP,181,%,1065
+162,FP,30,Yes,1065
+162,FP,71,Yes,1065
+162,FP,3,"MULTI_SELECT|Respiratory interventions|[""raising head of bed""]",1065
+162,FP,148,"MULTI_SELECT|Gastrointestinal symptoms|[""nausea"",""vomiting""]",1065
+162,FN,40,oriented x3,1065
+162,FN,00,Yes,1065
+162,FN,03,raising head of bed,1065
+162,Value Error,67,Mild,1065
+162,FN,10,88,1065
+162,Value Error,148,nausea,1065
+162,Value Error,148,vomiting,1065
+163,FP,26,acute delirium,1646
+163,FP,130,Disoriented to time,1646
+163,FP,183,mL,1646
+163,FP,190,mL,1646
+163,FP,23,joint contractures,1646
+163,FP,155,proactive range of motion exercises,1646
+163,FP,139,"[""dark"",""cloudy""]",1646
+163,Value Error,26,acute,1646
+163,Value Error,130,Alert with general confusion and forgetfulness,1646
+163,FN,40,disoriented,1646
+163,FN,25,inadequate,1646
+163,FN,132,Mild,1646
+164,FP,18,150,1013
+164,FP,13,[,1013
+164,FN,177,difficulty urinating,1013
+164,FN,177,urgency,1013
+164,FN,148,vomiting,1013
+164,FN,67,Mild,1013
+164,Value Error,13,labored,1013
+165,FP,67,Moderate,872
+165,FP,139,,872
+165,FN,57,moderate,872
+165,Value Error,67,Mild,872
+165,FN,177,urgency,872
+165,FN,177,urine frequency,872
+165,Value Error,139,dark,872
+166,FP,67,Moderate,978
+166,FP,99,strong unpleasant,978
+166,FP,89,Limited,978
+166,FP,165,"[""wheezes""]",978
+166,Value Error,165,wheezes,978
+167,FP,189,L/min,1381
+167,FP,57,moderate strength,1381
+167,FP,78,Yes,1381
+167,FP,177,MULTI_SELECT,1381
+167,FN,130,Disoriented to time,1381
+167,Value Error,57,moderate,1381
+167,Value Error,177,difficulty urinating,1381
+167,Value Error,177,urgency,1381
+167,FN,89,Limited,1381
+168,FP,118,Yes,911
+168,FP,189,L/min,911
+168,FP,3,"{""value_type"":""MULTI_SELECT"",""name"":""Respiratory interventions"",""value"":[""raising head of bed"",""incentive spirometer usage""]}",911
+168,FN,03,raising head of bed,911
+168,FN,03,incentive spirometer usage,911
+168,FN,06,weightbearing as tolerated to the left lower extremity,911
+168,FN,45,1+,911
+169,FP,3,"MULTI_SELECT: [""turn cough"",""deep breathe"",""incentive spirometer usage""]",1092
+169,FN,03,turn cough,1092
+169,FN,03,deep breathe,1092
+169,FN,03,incentive spirometer usage,1092
+169,FN,03,raising head of bed,1092
+169,FN,136,incentive spirometer,1092
+169,FN,180,bpm,1092
+169,FN,45,2+,1092
+169,FN,29,Per protocol,1092
+170,FP,146,lying,732
+170,FP,4,Normal,732
+170,FP,13,:[,732
+170,FP,177,,732
+170,Value Error,146,supine,732
+170,FN,167,Moderate,732
+170,Value Error,177,urgency,732
+170,Value Error,177,difficulty urinating,732
+170,Value Error,13,shallow,732
+170,FN,148,no symptoms,732
+170,FN,04,Normal,732
+170,FN,179,Ã‚Â°C,732
+171,FP,18,350,864
+171,FP,13,,864
+171,FN,167,Severe abdominal  pain,864
+171,FN,148,nausea,864
+171,FN,148,vomiting,864
+171,FN,84,distended,864
+171,FN,84,tender,864
+171,FN,36,distended,864
+171,Value Error,13,labored,864
+172,FP,84,"distended, nontender",881
+172,FN,151,Bilateral pedal and ankle edema,881
+172,Value Error,84,distended,881
+172,Value Error,84,nontender,881
+172,FN,36,distended,881
+173,FP,4,Delayed,1070
+173,FP,7,Dry,1070
+173,FN,167,Ongoing abdominal discomfort,1070
+173,FN,148,nausea,1070
+173,FN,148,vomiting,1070
+173,FN,84,tender,1070
+173,FN,116,Increased,1070
+173,FN,04,Delayed,1070
+173,FN,07,Dry,1070
+174,FP,98,Yes,1074
+174,FP,13,"[""labored""]",1074
+174,FP,84,"[""nontender"",""soft"",""nondistended""]",1074
+174,FP,148,"[""nausea"",""vomiting""]",1074
+174,FP,165,"[""diminished""]",1074
+174,Value Error,148,nausea,1074
+174,Value Error,148,vomiting,1074
+174,Value Error,13,labored,1074
+174,FN,03,incentive spirometer usage,1074
+174,Value Error,84,nontender,1074
+174,Value Error,84,soft,1074
+174,Value Error,84,nondistended,1074
+175,FP,31,recurrent pneumonia,1220
+175,FP,84,"MULTI_SELECT for abdomen exam is a list of options. Values extracted: [""soft"",""nondistended""] is valid within the ontology constraints.",1220
+175,FN,148,nausea,1220
+175,FN,148,diarrhea,1220
+175,Value Error,84,nondistended,1220
+175,Value Error,84,soft,1220
+176,FP,139,"[""cloudy""]",746
+176,FP,177,"[""urgency""]",746
+176,FP,179,°C,746
+176,Value Error,139,cloudy,746
+176,Value Error,177,urgency,746
+176,Value Error,179,Ã‚Â°C,746
+177,FP,91,500 mL,796
+177,FP,84,"MULTI_SELECT | Abdomen exam | [""distended"",""tender""]",796
+177,FP,148,"MULTI_SELECT | Gastrointestinal symptoms | [""diarrhea"",""nausea""]",796
+177,FP,177,"MULTI_SELECT | Urinary symptoms | [""urgency""]",796
+177,FN,37,Generalized weakness,796
+177,Value Error,84,distended,796
+177,Value Error,84,tender,796
+177,Value Error,148,diarrhea,796
+177,Value Error,148,nausea,796
+177,Value Error,177,urgency,796
+177,Value Error,91,500 ,796
+177,FN,185,mL,796
+178,FP,2,Slightly limited,917
+178,FP,145,Assisted,917
+178,FN,148,nausea,917
+178,FN,148,diarrhea,917
+178,FN,30,Yes,917
+178,FN,177,urgency,917
+178,FN,177,urine frequency,917
+178,FN,98,Yes,917
+178,FN,02,Slightly limited,917
+178,FN,89,Slightly limited,917
+178,FN,164,moderate assist,917
+180,FP,0,Yes,1271
+180,FP,40,disoriented,1271
+180,FN,00,Yes,1271
+181,FP,89,Slightly limited,1179
+181,FP,40,disoriented,1179
+181,FP,13,"[""labored""]",1179
+181,Value Error,13,labored,1179
+181,Value Error,89,Limited,1179
+181,FN,171,Completed,1179
+182,FP,78,Yes,1185
+182,FP,145,Assisted,1185
+182,FP,33,92,1185
+182,FP,91,850 mLs,1185
+182,FP,107,High,1185
+182,FP,125,"[""Numbness and tingling in lower extremities""]",1185
+182,Value Error,125,Numbness and tingling in lower extremities,1185
+182,FN,138,92,1185
+182,FN,157,consistency: loose,1185
+182,FN,157,amount: medium,1185
+182,FN,157,color: brown,1185
+182,FN,165,clear,1185
+182,FN,165,wheezes,1185
+182,FN,177,difficulty urinating,1185
+182,FN,177,urgency,1185
+182,FN,164,moderate assist,1185
+182,FN,117,Yes,1185
+182,FN,185,mL,1185
+182,Value Error,91,850,1185
+183,FP,107,High,1517
+183,FP,84,[,1517
+183,FN,165,diminished,1517
+183,FN,36,within normal limits,1517
+183,Value Error,84,soft,1517
+183,Value Error,84,nontender,1517
+184,FP,67,Moderate,1122
+184,FP,165,MULTI_SELECT,1122
+184,Value Error,165,clear,1122
+184,Value Error,67,Mild,1122
+184,FN,132,Mild,1122
+184,FN,157,color: brown,1122
+184,FN,157,consistency: soft,1122
+184,FN,157,amount: unmeasured,1122
+184,FN,177,difficulty urinating,1122
+185,FP,130,Forgetful at times,1301
+185,FN,179,Ã‚Â°C,1301
+185,FN,180,bpm,1301
+185,FN,184,mmHg,1301
+185,Value Error,130,Alert with general confusion and forgetfulness,1301
+186,FP,125,"Numbness and tingling in lower extremities, Right upper extremity numbness and tingling",1169
+186,FN,179,Ã‚Â°C,1169
+186,Value Error,125,Right upper extremity numbness and tingling,1169
+186,Value Error,125,Numbness and tingling in lower extremities,1169
+186,FN,157,color: black,1169
+186,FN,157,consistency: loose,1169
+186,FN,177,urine frequency,1169
+188,FP,40,disoriented,1241
+188,FN,148,nausea,1241
+188,FN,148,vomiting,1241
+189,FP,57,weak cough,746
+189,FP,165,MULTI_SELECT,746
+189,Value Error,165,diminished,746
+189,Value Error,57,weak,746
+190,FP,13,"[""nonlabored""]"",""name"":""Breathing pattern"",""value_type"":""MULTI_SELECT""}]}**Wait** I need to correct formatting. Let me provide proper JSON without extra quotes.** The correct JSON is: }  Correction below.}Oops, I made a formatting mistake in the previous line. Here's the correct JSON: ",1163
+190,Value Error,13,nonlabored,1163
+190,FN,148,vomiting,1163
+191,FP,49,weak,1132
+191,FP,113,elevated,1132
+191,FP,148,"MULTI_SELECT|Gastrointestinal symptoms|[""no symptoms""]|no symptoms",1132
+191,FP,165,"MULTI_SELECT|Breath sounds|[""diminished"",""wheezes""]|diminished, wheezes",1132
+191,FN,31,respiratory,1132
+191,FN,178,%,1132
+191,Value Error,165,diminished,1132
+191,Value Error,165,wheezes,1132
+191,FN,03,raising head of bed,1132
+191,FN,67,Mild,1132
+192,FP,71,Yes,1105
+192,FP,22,dark green,1105
+192,FP,191,kcal,1105
+192,FP,28,"his verbal responses are, um, inappropriate",1105
+192,FN,31,respiratory,1105
+192,FN,148,vomiting,1105
+192,Value Error,22,green,1105
+193,FP,130,Forgetful at times,1179
+193,FP,149,{Multiselect},1179
+193,Value Error,149,dry,1179
+193,Value Error,149,warm,1179
+193,FN,86,Assisted,1179
+193,FN,148,constipation,1179
+193,FN,188,%,1179
+193,FN,141,Partial,1179
+194,FP,21,walker,1321
+194,FP,13,"[""shallow""]",1321
+194,FP,122,"[""Denture care"",""Missing teeth""]",1321
+194,FP,139,"[""cloudy""]",1321
+194,FP,149,"[""dry"",""flaky""]",1321
+194,FP,165,"[""diminished""]",1321
+194,FP,177,"[""urine frequency""]",1321
+194,FN,64,Independent,1321
+194,Value Error,149,dry,1321
+194,Value Error,149,flaky,1321
+194,Value Error,177,urine frequency,1321
+194,Value Error,139,cloudy,1321
+194,Value Error,122,Denture care,1321
+194,Value Error,165,diminished,1321
+195,FP,130,Disoriented to time,639
+195,FP,136,incentive spirometer,639
+195,FP,84,MULTI_SELECT,639
+195,Value Error,130,Alert,639
+195,FN,149,dry,639
+195,FN,149,flaky,639
+195,FN,03,incentive spirometer usage,639
+195,Value Error,84,tender,639
+195,Value Error,84,rounded,639
+195,Value Error,84,distended,639
+195,FN,89,Limited,639
+196,FP,149,"[""pale and clammy"",""intact""]",1051
+196,FN,178,%,1051
+196,Value Error,149,pale and clammy,1051
+196,FN,89,Slightly limited,1051
+196,FN,84,soft,1051
+196,FN,84,nondistended,1051
+196,FN,157,color: brown,1051
+196,FN,157,consistency: soft,1051
+196,FN,87,Every 2 hours,1051
+197,FP,135,,1174
+197,FP,91,25 mL,1174
+197,FP,30,Yes,1174
+197,FP,71,Yes,1174
+197,Value Error,135,to pain,1174
+197,Value Error,91,25,1174
+197,FN,121,Occasional,1174
+197,FN,148,nausea,1174
+197,FN,148,vomiting,1174
+197,FN,102,Yes,1174
+198,FP,26,early delirium symptoms,1087
+198,FP,114,15,1087
+198,FP,107,High,1087
+198,FP,177,"[""difficulty urinating""]",1087
+198,FN,40,disoriented,1087
+198,Value Error,26,early,1087
+198,FN,188,%,1087
+198,FN,35,No,1087
+198,FN,120,Hester Davis fall risk assessment,1087
+198,FN,81,Ensured,1087
+198,FN,117,Yes,1087

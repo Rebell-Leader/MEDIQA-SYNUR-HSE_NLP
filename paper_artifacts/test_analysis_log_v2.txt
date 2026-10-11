@@ -1,0 +1,57 @@
+
+Computing Dataset Statistics...
+                  Metric  Value
+0               Examples    199
+1  Avg Tokens/Transcript  177.0
+2        Avg Obs/Example   12.8
+3        Unique Concepts    164
+
+Value Type Distribution:
+SINGLE_SELECT    1853
+NUMERIC           257
+STRING             98
+MULTI_SELECT      344
+dtype: int64
+Running Granular Error Analysis...
+
+Top 10 Most Problematic Entities (FN + Value Error):
+obs_id
+148    92
+177    75
+03     73
+139    50
+149    47
+84     39
+165    34
+13     32
+00     23
+130    20
+Name: count, dtype: int64
+
+Top 10 Most Hallucinated Entities (FP):
+obs_id
+177    32
+31     31
+13     29
+3      25
+139    24
+26     22
+148    18
+130    18
+165    18
+0      18
+Name: count, dtype: int64
+
+Analyzing Adjudication Impact...
+Total Observations Removed by Adjudication: 2219
+  - Correctly Removed (FPs): 2025 (91.3%) -> Precision Gain
+  - Incorrectly Removed (TPs): 194 (8.7%) -> Recall Loss
+
+Running Ablation Study...
+V3 Union: P=0.4618, R=0.7449, F1=0.5702
+V4 Adjudication: P=0.7352, R=0.6582, F1=0.6946
+V5 Repair Only: P=0.4835, R=0.0970, F1=0.1616
+V6 ACE Full: P=0.7397, R=0.6413, F1=0.6870
+Generated Figure 2
+Generated Figure 3
+Generated Figure 4

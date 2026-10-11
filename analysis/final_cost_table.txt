@@ -1,0 +1,7 @@
+| Stage | Model | Input Tokens | Output Tokens | Est. Cost ($) |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Extraction** | Qwen-235B (RAG) | 801,893 | 33,593 | $0.09 |
+| | GPT-5 (0-shot) | 503,393 | 33,593 | $0.48 |
+| **2. Adjudication** | Qwen-235B | 255,234 | 33,593 | $0.04 |
+| **3. Repair** | Qwen-235B (Targeted) | 138,000 | 3,450 | $0.02 |
+| **TOTAL** | | **1,698,520** | **104,229** | **$0.63** |
